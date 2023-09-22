@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+	<html class="sl-root decks export offline loaded">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover, minimal-ui">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<link rel="manifest" href='data:application/manifest+json,{"display": "standalone", "name": "Replace a DB by an API"}' />
+		<title>Replace a DB by an API</title>
+
+
+		<link rel="stylesheet" type="text/css" href="lib/offline-v2.css">
+
+
+
+	</head>
+	<body class="reveal-viewport theme-font-quicksand theme-color-beige-brown">
+		<div class="reveal">
+			<div class="slides">
+				<section data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="c98a7bf1c8fadd07fd86b5822c6574ff">
+<div class="sl-block" data-block-type="image" data-name="image-2fa41d" style="width: 445.014px; height: 253.658px; left: 55.986px; top: 376.342px; min-width: 1px; min-height: 1px;" data-block-id="905245b4ba0b4a9eff54bf36f2202c9f"><div class="sl-block-content" style="z-index: 11;"><img class="" data-natural-width="400" data-natural-height="228" data-lazy-loaded="" data-src="deck/e057eb361816dfb83f467df528e365af.png"></div></div>
+
+<div class="sl-block" data-block-type="image" data-name="image-9c3240" data-block-id="a72706ef5a27805bfede95a60c454e04" style="width: 925.511px; height: 520.6px; left: 0px; top: 47.4px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 10;"><img class="" data-natural-width="2400" data-natural-height="1350" data-lazy-loaded="" data-src="deck/df45916ab9ab7bd0a8164f21e5b60673.png"></div></div></section><section data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="315abac340066d9d4eea5b226d8c0fbf">
+
+
+<div class="sl-block" data-block-type="image" style="width: 487.167px; height: 649.877px; left: 232.833px; top: 10.0615px; min-width: 1px; min-height: 1px;" data-name="image-5b18cf" data-block-id="9eb518b81022fc87424c7fb3ed17e692"><div class="sl-block-content" style="z-index: 10;"><img class="" data-natural-width="1012" data-natural-height="1350" data-lazy-loaded="" data-src="deck/94e6374dbd21a4d89bfc072366f64479.jpg"></div></div></section><section data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="65d515f6d0995b43bf1ef9f9255bc27f">
+
+
+<div class="sl-block" data-block-type="image" style="width: 690.667px; height: 518px; left: 134.666px; top: 91px; min-width: 1px; min-height: 1px;" data-name="image-b11a06" data-block-id="532d5efbc92100e7b48e57d63bf8d6a3"><div class="sl-block-content" style="z-index: 10;"><img class="" data-natural-width="1800" data-natural-height="1350" data-lazy-loaded="" data-src="deck/75e9735cd65b12a09d61c5e69444e02d.JPG"></div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="a6655649cb57035abf10765e9599764c">
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-a22dd8" style="width: auto; height: auto;" data-block-id="05b72dacace4d9f8a7ce98b880900ddd"><div class="sl-block-content sl-block-group-content" style="transform-origin: 830.5px 675.5px; z-index: 10;">
+<div class="sl-block" data-block-type="text" data-name="text-4d4062" style="height: auto; width: 199px; left: 748px; top: 656px;" data-block-id="0b73c5a652e519c65ecb9a32069d75a1"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(74, 134, 232);"><pre> @SmaineDev</pre></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-ff53d5" style="width: 49px; height: 49px; left: 714px; top: 651px; min-width: 1px; min-height: 1px;" data-block-id="5de806b1d07b2188b4ce68d70c662f1c"><div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="deck/4c5b2d16a7b9986f9a7d849b396faad8.png"></div></div>
+</div></div>
+
+
+<div class="sl-block" data-block-type="image" data-name="image-9e5e55" data-block-id="8e031d7fe9ef41f5b955659112bedf14" style="width: 579.911px; height: 596.149px; left: 190.045px; top: 51.9255px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 13;"><img class="" data-natural-width="500" data-natural-height="514" data-lazy-loaded="" data-src="deck/b1052bfbbaa18eebd3ddbe15d94bd595.png"></div></div></section><section data-background-color="rgb(217, 210, 233)" data-id="17f378a238e74b7f830e5a7ddbf517ca" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg">
+<div class="sl-block" data-block-type="line" data-name="line-a5c0c7" style="width: auto; height: auto; left: 7.531px; top: 514.185px;" data-block-id="2dc9499f85b319c78100d93f2a04777d"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="314" data-line-y2="0" data-line-color="#444444" data-line-start-type="none" data-line-end-type="none" style="z-index: 10;" data-line-width="4px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="314" height="1" viewbox="0 0 314 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="0" x2="314" y2="0"></line><line class="line-element" stroke="#444444" stroke-width="4" x1="0" y1="0" x2="314" y2="0"></line></svg></div></div>
+<div class="sl-block" data-block-type="text" style="width: 607.25px; left: 352.75px; top: 214.5px; height: auto;" data-name="text-d18e72" data-block-id="f35142f9a119611a342f38f7aaa6b88d">
+<div class="sl-block-style" style="z-index: 11; filter: drop-shadow(rgba(0, 0, 0, 0.5) 0px 0px 5px) opacity(100%);"><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 11; text-align: center; color: rgb(0, 0, 0); font-size: 120%; padding: 20px;" data-placeholder-text="Text">
+<p style="text-align:left"><span style="color:#000000">🚀 </span><a href="https://www.smaine.me" target="_blank"><span style="color:#000000">www.smaine.me</span></a></p>
+
+<p style="text-align:left">    <span style="color:#000000"> </span><a href="https://twitter.com/SmaineDev" target="_blank"><span style="color:#000000">@SmaineDev</span></a></p>
+
+<p style="text-align:left"><span style="color:#000000">🖊  </span><a href="https://twitter.com/SmaineDev" target="_blank"><span style="color:#000000">smaine-milianni.medium.com</span></a></p>
+
+<p style="text-align:left"><span style="color:#000000">      </span><a href="https://github.com/ismail1432" target="_blank"><span style="color:#000000">ismail1432</span></a></p>
+
+<p style="text-align:left"><span style="color:#000000">    </span><a href="http://youtube.com/c/SmaineMilianni" target="_blank"><span style="color:#000000">youtube.com/c/smainemilianni</span></a></p>
+</div></div>
+<grammarly-extension data-grammarly-shadow-root="true" class="dnXmp" style="position: absolute; top: 0px; left: 0px; pointer-events: none; z-index: 11;"></grammarly-extension><grammarly-extension data-grammarly-shadow-root="true" class="dnXmp" style="position: absolute; top: 0px; left: 0px; pointer-events: none; z-index: 11;"></grammarly-extension>
+<grammarly-extension data-grammarly-shadow-root="true" style="position: absolute; top: 0px; left: 0px; pointer-events: none; z-index: 11;" class="cGcvT"></grammarly-extension><grammarly-extension data-grammarly-shadow-root="true" style="position: absolute; top: 0px; left: 0px; pointer-events: none; z-index: 11;" class="cGcvT"></grammarly-extension>
+</div>
+<div class="sl-block" data-block-type="image" data-name="image-f2071a" style="width: 36.8852px; height: 30px; left: 363.115px; top: 302px; min-width: 1px; min-height: 1px;" data-block-id="9a0258e6f80ff80bf639a48dd46ac823"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="1200" data-natural-height="976" data-lazy-loaded="" data-src="deck/8d35dc2dc556d7bc25333fea7f18fb94.png"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-6f5982" style="width: 39.73px; height: 39.73px; left: 363.115px; top: 408px; min-width: 1px; min-height: 1px;" data-block-id="8a1240f5dc016d09c0c861acc3382b7a"><div class="sl-block-content" style="z-index: 14;"><img style="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="deck/bd5f7d9ed918550470ab9a9d6ab09556.png"></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-0811b1" style="height: auto; width: 960px; left: 0px; top: 70px;" data-block-id="8b46069becf7ba9de1a98f6c4180a4dd"><div class="sl-block-style" style="z-index: 15; filter: drop-shadow(rgb(68, 68, 68) 0px 0px 5px) opacity(100%);"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; border-width: 1px;"><h2><span style="font-size:1.2em">🥋Trainer - Developer 🐛</span></h2></div></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-b2211a" style="width: 76.6517px; height: 57.4888px; left: 341.809px; top: 457.696px; min-width: 1px; min-height: 1px;" data-block-id="675bd2a4395dc7c897722ac8a8a00769"><div class="sl-block-content" style="z-index: 16;"><img style="" data-natural-width="1800" data-natural-height="1350" data-lazy-loaded="" data-src="deck/25674259ebb21db2f87948c22035b90c.png"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-a19256" data-block-id="18e047b70ffe8b11418e05d8db6cb20d" style="width: 278.457px; height: 274.206px; left: 25.3025px; top: 212.234px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 18;"><img class="" data-natural-width="655" data-natural-height="645" data-lazy-loaded="" data-src="deck/7c7e434f8b2c70ad118fc803154c28ba.png"></div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="838ff3b804460d64d0ee16af411cad14">
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-a22dd8" style="width: auto; height: auto;" data-block-id="1f8b324e7366d1da1237bb23a31f67d2"><div class="sl-block-content sl-block-group-content" style="transform-origin: 830.5px 675.5px; z-index: 10;">
+<div class="sl-block" data-block-type="text" data-name="text-4d4062" style="height: auto; width: 199px; left: 748px; top: 656px;" data-block-id="a66ad9d1c05369a3c5a1f8deb549c90d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(74, 134, 232);"><pre> @SmaineDev</pre></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-ff53d5" style="width: 49px; height: 49px; left: 714px; top: 651px; min-width: 1px; min-height: 1px;" data-block-id="699055518fe92b7c37cdcb0ac6fcca96"><div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="deck/4c5b2d16a7b9986f9a7d849b396faad8.png"></div></div>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-accc49" style="height: auto; width: 600px; left: 138.5px; top: 90.5px;" data-block-id="698544f5996a12b360129ca50de90e41"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;"><h2>Context</h2></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-2bae93" data-block-id="ac7544570970ebadba86580e62a739c1" style="width: 191.042px; height: 140.952px; left: 102.5px; top: 331px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 14;"><img class="" data-natural-width="656" data-natural-height="484" data-lazy-loaded="" data-src="deck/f7173553e6be8c8cedb0cd96236435df.png"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-7a1310" data-block-id="736c9ee9b2b0b37c5fe1300892c0c608" style="width: 189.72px; height: 139.976px; left: 512.03px; top: 255.506px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 15;"><img class="" data-natural-width="656" data-natural-height="484" data-lazy-loaded="" data-src="deck/4020bb86ce1f7f5a95b2cbc89dac8a85.png"></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-d60b7a" data-block-id="3586cae6de1196e8c3d1d1947f244b3f" style="height: auto; width: 247px; left: 73px; top: 266.5px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;"><p>Team API</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 325.47px; left: 539.015px; top: 200px;" data-block-id="cf85c6f0188921d8c016144325cb7ba4" data-name="text-25c790"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17;"><p>Team ECOMMERCE</p></div></div>
+<div class="sl-block" data-block-type="image" style="width: 189.72px; height: 139.976px; left: 726.25px; top: 255.506px; min-width: 1px; min-height: 1px;" data-block-id="b54a554f749e2bac5277f5d4e3fc896c" data-name="image-642673"><div class="sl-block-content" style="z-index: 18;"><img class="" data-natural-width="656" data-natural-height="484" data-lazy-loaded="" data-src="deck/4020bb86ce1f7f5a95b2cbc89dac8a85.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 189.72px; height: 139.976px; left: 612.89px; top: 420.518px; min-width: 1px; min-height: 1px;" data-block-id="d335ab276bf92354566f339708a2efbc" data-name="image-02047c"><div class="sl-block-content" style="z-index: 19;"><img class="" data-natural-width="656" data-natural-height="484" data-lazy-loaded="" data-src="deck/4020bb86ce1f7f5a95b2cbc89dac8a85.png"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-120aa0" data-block-id="19469b194f2b6d56d7504210b49adb6c" style="width: 77px; height: 77px; left: 171.021px; top: 490.506px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 20;"><img class="" data-natural-width="400" data-natural-height="400" data-lazy-loaded="" data-src="deck/798775742ac3cb81d3c088c9b10bde7e.png"></div></div>
+<div class="sl-block" data-block-type="line" data-name="line-43f719" data-block-id="1c813b1000bd121077ba560ed1a15dfb" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 257.017px; top: 523.444px;"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="75.61689999999999" data-line-y2="58" data-line-color="#000000" data-line-start-type="line-arrow" data-line-end-type="none" style="z-index: 21;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="75.61689999999999" height="58" viewbox="0 0 75.61689999999999 58"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="1.586938639564392" y1="1.217220503547947" x2="75.61689999999999" y2="58"></line><line class="line-element" stroke="#000000" stroke-width="2" x1="1.586938639564392" y1="1.217220503547947" x2="75.61689999999999" y2="58"></line><path style="fill: rgba(0,0,0,0);" stroke="#000000" stroke-width="2" transform="translate(1.586938639564392,1.217220503547947) rotate(127.489)" d="M -6 -6 L 0 0 L 6 -6"></path></svg></div></div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-3ed1b6" data-block-id="f6e6c39576d4244c5d5cd45501b55d7c"><div class="sl-block-content sl-block-group-content" style="transform-origin: 337.386px 617.684px; z-index: 22;">
+<div class="sl-block" data-block-type="drawing" data-name="drawing-034711" data-block-id="cf855926ae5a0706c0fe01eda34f1897" style="width: 39.1988px; height: 43.4363px; left: 274px; top: 598.869px;"><div class="sl-block-content" data-points="294.61 646.62,294.61 639.9,294.61 637.84,294.61 635.83,294.61 633.63,294.61 631.63,294.61 625.95,294.61 622.45,294.61 619.52,294.61 617.2,294.61 614.45,295.25 612.37,296.31 610.55,297.02 612.83,299.02 615.88,300.35 617.89,302.24 620.11,304.13 622.33,306.43 625.11,309.32 628.59,311.57 631.71,313.45 634.28,315.24 636.7,316.57 638.5,318.04 640.36,318.74 637.96,318.88 633.55,319.41 629.7,320.42 626.67,321.63 623.61,322.56 621.22,323.78 618.14,324.55 616.18,325.14 613.69" data-timestamp="1688816518974" style="z-index: 23;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="none" width="100%" height="100%" viewbox="290.64801025390625 606.8687133789062 36.7374267578125 43.436279296875"><path fill="rgb(109, 158, 235)" d="M 290.87617 645.15 Q 290.88 645.15 290.89 642.63 290.9 640.11 290.85 638.37 290.79 636.63 290.72 633.62 290.66 630.61 290.67 627.81 290.69 625.01 290.65 621.84 290.61 618.67 291.38 614.22 292.15 609.77 292.84 608.69 293.53 607.61 294.72 607.14 295.92 606.68 297.16 607 298.4 607.32 299.21 608.31 300.03 609.3 300.48 610.05 300.93 610.8 302.71 613.54 304.5 616.29 306.41 618.56 308.32 620.84 310.76 623.9 313.19 626.97 315.25 629.76 317.3 632.54 319.25 635.07 321.21 637.6 321.62 638.83 322.03 640.06 321.64 641.3 321.25 642.53 320.2 643.3 319.16 644.07 317.86 644.09 316.57 644.1 316.34 643.17 316.11 642.24 315.49 638.58 314.87 634.93 315.35 631.43 315.83 627.94 316.98 624.56 318.13 621.18 319.11 618.35 320.09 615.52 322.45 614.13 324.8 612.75 326.54 614.86 328.27 616.97 326.46 619.01 324.65 621.05 322.35 619.58 320.05 618.11 321.14 615.61 322.23 613.11 324.87 613.8 327.51 614.48 327.17 618.15 326.82 621.82 325.79 624.41 324.76 627.01 324.04 629.93 323.31 632.85 322.79 635.74 322.27 638.64 322.15 639.35 322.03 640.06 321.64 641.3 321.25 642.53 320.2 643.3 319.16 644.07 317.86 644.09 316.57 644.1 315.51 643.34 314.46 642.59 312.55 640.01 310.64 637.43 308.71 634.78 306.77 632.14 304.35 629.19 301.93 626.23 299.79 623.67 297.66 621.1 295.83 618.36 293.99 615.62 293.71 612.44 293.42 609.26 293.48 608.44 293.53 607.61 294.72 607.14 295.92 606.68 297.16 607 298.4 607.32 299.21 608.31 300.03 609.3 300.11 610.58 300.18 611.86 299.4 615.27 298.61 618.68 298.57 621.85 298.53 625.01 298.55 627.81 298.56 630.61 298.5 633.62 298.43 636.63 298.37 638.37 298.32 640.11 298.33 642.63 298.34 645.15 298.34 645.89 298.34 646.62 298.25 647.2 298.16 647.77 297.9 648.29 297.63 648.81 297.22 649.23 296.8 649.64 296.28 649.91 295.76 650.17 295.19 650.26 294.61 650.35 294.03 650.26 293.46 650.17 292.94 649.91 292.42 649.64 292 649.23 291.59 648.81 291.32 648.29 291.06 647.77 290.97 647.2 290.88 646.62 290.88 645.89 Z"></path></svg></div></div>
+<div class="sl-block" data-block-type="drawing" data-name="drawing-6d5ca2" data-block-id="7ccd81250f249908a7c0a4ac28260e59" style="width: 20.6953px; height: 39.847px; left: 308.451px; top: 597.296px;"><div class="sl-block-content" data-points="326.66 609.02,327.77 612.73,328.73 615.68,329.84 618.47,330.83 621.18,331.56 623.63,332.82 626.86,333.96 629.04,334.77 631.15,335.77 632.89,337.11 634.7,337.37 637.26,337.63 639.36,338.41 641.52,338.93 643.76,339.84 645.75" data-timestamp="1688816520338" style="z-index: 24;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="none" width="100%" height="100%" viewbox="322.9363098144531 605.2963256835938 19.395843505859375 39.8470458984375"><path fill="rgb(109, 158, 235)" d="M 330.51180701106216 608.7517780690122 Q 330.51 608.75 331.03 610.32 331.54 611.89 332.05 613.3 332.55 614.71 333.2 616.36 333.84 618.01 334.84 620.65 335.84 623.29 337.02 625.75 338.2 628.21 339.48 630.99 340.76 633.76 341.83 637.25 342.9 640.74 341.69 643.24 340.49 645.75 337.82 644.95 335.15 644.16 335.53 641.4 335.9 638.64 338.68 638.58 341.46 638.51 341.96 641.25 342.46 643.99 339.83 644.91 337.21 645.83 335.42 642 333.64 638.16 332.3 635.12 330.96 632.08 329.59 629.03 328.23 625.98 327.32 623.36 326.41 620.73 325.79 618.97 325.18 617.2 324.69 615.67 324.2 614.13 323.75 612.52 323.29 610.91 323.17 610.51 323.05 610.1 322.97 609.52 322.89 608.93 323 608.35 323.11 607.77 323.39 607.25 323.67 606.73 324.09 606.33 324.52 605.92 325.05 605.67 325.58 605.41 326.16 605.33 326.75 605.25 327.33 605.36 327.91 605.47 328.43 605.75 328.95 606.03 329.35 606.45 329.76 606.88 330.01 607.41 330.27 607.94 330.39 608.35 Z"></path></svg></div></div>
+<div class="sl-block" data-block-type="drawing" data-name="drawing-516991" data-block-id="9f030b92c1954d90f53bdc1010d262d8" style="width: 59.4906px; height: 67.2629px; left: 324.637px; top: 586.661px;"><div class="sl-block-content" data-points="359.78 608.7,356.55 610.13,355.07 611.58,353.55 613.24,351.9 614.71,349.71 616.51,348.32 618.76,346.98 621.07,345.25 624.12,343.53 627.17,342.04 629.61,341.14 631.59,341.79 635.11,343.03 639.63,344.03 642.64,345.15 645.21,346.13 646.98,347.43 648.66,349.55 650.54,351.38 652.17,353.89 653.94,355.69 655.59,357.53 656.66,360.01 657.45,362.27 657.71,364.61 657.71,366.82 657.71,368.95 657.71,371.96 657.71,374.23 657.71,377.27 656.34,378.95 655.01,381.17 653.13,383.29 651.6,385.67 649.66,387.24 648.08,388.48 646.3,389.57 644.37,389.57 640.81,389.57 638.08,389.57 634.84,389.57 630.95,389.57 627.29,389.57 623.45,389.26 619.28,388.54 615.64,387.83 613.04,386.6 609.41,385.42 607.08,383.5 605.75,381.4 604.17,378.13 602.16,376.18 601.02,373.69 599.26,371.71 598.32,369.62 598.21,367.53 598.21,364.89 599.78,362.82 601.32,361.23 602.89,360.4 604.87,360 607.18,359.02 609.55,358.42 611.47,358.04 613.64" data-timestamp="1688816525957" style="z-index: 25;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="none" width="100%" height="100%" viewbox="338.1050109863281 594.6610107421875 55.755096435546875 67.262939453125"><path fill="rgb(109, 158, 235)" d="M 360.60936613823026 612.4520804926325 Q 360.61 612.45 359.34 613.22 358.07 614 357.13 615.07 356.19 616.15 355 617.48 353.8 618.81 351.84 621.56 349.88 624.32 348.44 627.21 346.99 630.09 346.67 632.94 346.35 635.79 347.43 638.98 348.51 642.17 350.24 644.58 351.97 646.99 354.63 649 357.29 651.01 359.86 652.15 362.42 653.3 365.1 653.34 367.77 653.38 370.48 652.96 373.18 652.55 376.2 650.87 379.22 649.19 381.25 647.2 383.28 645.2 384.26 642.43 385.24 639.66 385.27 636.54 385.29 633.42 385.3 629.66 385.3 625.9 385.08 622.31 384.85 618.72 384.14 615.96 383.42 613.19 381.98 610.85 380.55 608.52 377.86 606.88 375.17 605.23 372.65 604.3 370.13 603.38 367.57 604.76 365.01 606.14 364.12 608.79 363.23 611.45 360.85 612.96 358.46 614.48 356.59 612.37 354.71 610.25 356.51 608.06 358.31 605.88 360.75 607.32 363.18 608.75 362.15 611.39 361.11 614.02 358.35 613.4 355.59 612.79 355.92 608.38 356.25 603.97 357.94 601.43 359.63 598.89 362.75 596.89 365.88 594.89 369.08 594.69 372.28 594.49 374.85 595.67 377.43 596.84 380.13 598.51 382.84 600.17 385.41 602.28 387.98 604.39 389.63 607.53 391.27 610.67 392.17 614.23 393.06 617.8 393.38 621.78 393.7 625.76 393.78 629.59 393.85 633.43 393.86 636.68 393.87 639.93 393.09 643.57 392.31 647.21 390.65 649.73 388.98 652.25 386.86 654.05 384.73 655.86 382.26 657.71 379.78 659.56 376.53 660.61 373.28 661.66 369.66 661.84 366.04 662.03 362.9 661.79 359.75 661.55 356.89 660.4 354.02 659.26 351.7 657.61 349.37 655.96 347.17 653.96 344.98 651.97 343.41 649.76 341.85 647.56 340.66 644.6 339.46 641.64 338.69 639.02 337.91 636.4 338.17 632.77 338.43 629.13 339.77 626.07 341.11 623.02 342.72 620.28 344.34 617.53 346.9 614.65 349.46 611.76 350.87 610.33 352.29 608.9 353.5 607.93 354.71 606.97 356.13 606.27 357.54 605.57 357.89 605.42 358.24 605.26 358.81 605.11 359.38 604.95 359.97 604.98 360.56 605.01 361.11 605.23 361.66 605.44 362.12 605.81 362.58 606.18 362.9 606.67 363.22 607.16 363.37 607.73 363.53 608.3 363.5 608.89 363.47 609.48 363.25 610.03 363.04 610.58 362.67 611.04 362.3 611.5 361.81 611.82 361.32 612.14 360.96 612.3 Z"></path></svg></div></div>
+<div class="sl-block" data-block-type="drawing" data-name="drawing-d8db49" data-block-id="63dc62494777a847b1abc516c35a42c9" style="width: 9.44271px; height: 32.6141px; left: 391.329px; top: 601.525px;"><div class="sl-block-content" data-points="404.64 613.25,404.64 616.46,404.64 618.88,404.64 621.13,404.64 623.97,404.64 627.3,404.64 629.99,404.64 632.27,404.64 634.42,405.3 637.88,405.64 640.21,406.2 642.45" data-timestamp="1688816527306" style="z-index: 26;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="none" width="100%" height="100%" viewbox="400.6099853515625 609.5250244140625 8.84979248046875 32.61407470703125"><path fill="rgb(109, 158, 235)" d="M 408.4092333544922 613.9521875 Q 408.41 613.95 408.45 615.6 408.5 617.25 408.56 619.78 408.62 622.31 408.65 625.21 408.69 628.11 408.84 630.94 408.99 633.76 409.38 636.01 409.76 638.25 408.33 640.56 406.9 642.86 404.4 641.81 401.89 640.75 402.55 638.11 403.2 635.48 405.9 635.71 408.61 635.94 408.8 638.65 409 641.36 406.35 641.97 403.71 642.59 402.19 638.04 400.68 633.48 400.63 630.8 400.59 628.11 400.63 625.21 400.66 622.31 400.72 619.78 400.78 617.25 400.83 615.6 400.87 613.95 400.87 613.6 400.87 613.25 400.96 612.67 401.06 612.09 401.32 611.56 401.59 611.03 402.01 610.62 402.42 610.2 402.95 609.93 403.48 609.67 404.06 609.57 404.64 609.48 405.22 609.57 405.8 609.67 406.33 609.93 406.86 610.2 407.27 610.62 407.69 611.03 407.96 611.56 408.22 612.09 408.32 612.67 408.41 613.25 408.41 613.6 Z"></path></svg></div></div>
+<div class="sl-block" data-block-type="drawing" data-name="drawing-3a5f1d" data-block-id="806c7378a815b53541caf31173ada507" style="width: 7.61044px; height: 7.13257px; left: 388.57px; top: 581.444px;"><div class="sl-block-content" data-points="401.59 593.01" data-timestamp="1688816528247" style="z-index: 27;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="none" width="100%" height="100%" viewbox="398.0237121582031 589.4437255859375 7.132568359375 7.132568359375"><path fill="rgb(109, 158, 235)" d="M 404.2416504294495 590.3583495705504 Q 404.24 590.36 404.77 591.39 405.29 592.42 405.11 593.57 404.93 594.71 404.11 595.53 403.29 596.35 402.15 596.53 401 596.71 399.97 596.19 398.94 595.66 398.41 594.63 397.89 593.6 398.07 592.45 398.25 591.31 399.07 590.49 399.89 589.67 401.03 589.49 402.18 589.31 403.21 589.83 404.24 590.36 404.24 590.36 Z"></path></svg></div></div>
+</div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="663b3373eaa537c3bc4b52169d80baf2">
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-a22dd8" style="width: auto; height: auto;" data-block-id="09f1b54a231d526a2ff8419fecd85ebc"><div class="sl-block-content sl-block-group-content" style="transform-origin: 830.5px 675.5px; z-index: 11;">
+<div class="sl-block" data-block-type="text" data-name="text-4d4062" style="height: auto; width: 199px; left: 748px; top: 656px;" data-block-id="50bc68c2764dc8143cc2c4c6a2b90658"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(74, 134, 232);"><pre> @SmaineDev</pre></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-ff53d5" style="width: 49px; height: 49px; left: 714px; top: 651px; min-width: 1px; min-height: 1px;" data-block-id="19fe492555816174128d96be3e1b2f22"><div class="sl-block-content" style="z-index: 13;"><img class="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="deck/4c5b2d16a7b9986f9a7d849b396faad8.png"></div></div>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-accc49" style="height: auto; width: 600px; left: 136px; top: 0px;" data-block-id="4b885e5811a96d6b5065022f5d99cf1a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;"><h2><span style="color:#ff8c00">TEAM API</span></h2></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-55d7f0" style="width: 104.974px; height: 185.734px; left: 581.513px; top: 12px; min-width: 1px; min-height: 1px;" data-block-id="0e23299fdd104ed38c78aba77895ccf0"><div class="sl-block-content" style="z-index: 15;"><img class="" data-natural-width="763" data-natural-height="1350" data-lazy-loaded="" data-src="deck/668c1fb0a443534da1d8aa3134721053.png"></div></div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-b715ed" data-block-id="c5ef33522b41110c51a89eb78b4c4beb" style="width: auto; height: auto;"><div class="sl-block-content sl-block-group-content" style="transform-origin: 413.875px 326.367px; z-index: 16;">
+<div class="sl-block" data-block-type="text" data-name="text-2a2e7f" data-block-id="428cf3620f7b7f7ff1f27c6eca367fae" style="height: auto; width: 170px; left: 629px; top: 244.5px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17;">
+<p style="text-align:left">Legacy</p>
+
+<p style="text-align:left">Database 👴</p>
+</div></div>
+<div class="sl-block" data-block-type="shape" data-name="shape-262433" data-block-id="a2a23657e1d4b3146b8146e3552d8aa6" style="width: 166px; height: 176px; left: 28.75px; top: 295.5px;"><div class="sl-block-content" data-shape-type="symbol-globe" data-shape-fill-color="rgb(255, 153, 0)" data-shape-stretch="true" style="z-index: 18;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 2 30 30"><g class="shape-element" fill="rgb(255, 153, 0)" data-viewbox="0 2 30 30"><path d="M15 2c-8.284 0-15 6.716-15 15s6.716 15 15 15c8.284 0 15-6.716 15-15s-6.716-15-15-15zM23.487 22c0.268-1.264 0.437-2.606 0.492-4h3.983c-0.104 1.381-0.426 2.722-0.959 4h-3.516zM6.513 12c-0.268 1.264-0.437 2.606-0.492 4h-3.983c0.104-1.381 0.426-2.722 0.959-4h3.516zM21.439 12c0.3 1.28 0.481 2.62 0.54 4h-5.979v-4h5.439zM16 10v-5.854c0.456 0.133 0.908 0.355 1.351 0.668 0.831 0.586 1.625 1.488 2.298 2.609 0.465 0.775 0.867 1.638 1.203 2.578h-4.852zM10.351 7.422c0.673-1.121 1.467-2.023 2.298-2.609 0.443-0.313 0.895-0.535 1.351-0.668v5.854h-4.852c0.336-0.94 0.738-1.803 1.203-2.578zM14 12v4h-5.979c0.059-1.38 0.24-2.72 0.54-4h5.439zM2.997 22c-0.533-1.278-0.854-2.619-0.959-4h3.983c0.055 1.394 0.224 2.736 0.492 4h-3.516zM8.021 18h5.979v4h-5.439c-0.3-1.28-0.481-2.62-0.54-4zM14 24v5.854c-0.456-0.133-0.908-0.355-1.351-0.668-0.831-0.586-1.625-1.488-2.298-2.609-0.465-0.775-0.867-1.638-1.203-2.578h4.852zM19.649 26.578c-0.673 1.121-1.467 2.023-2.298 2.609-0.443 0.312-0.895 0.535-1.351 0.668v-5.854h4.852c-0.336 0.94-0.738 1.802-1.203 2.578zM16 22v-4h5.979c-0.059 1.38-0.24 2.72-0.54 4h-5.439zM23.98 16c-0.055-1.394-0.224-2.736-0.492-4h3.516c0.533 1.278 0.855 2.619 0.959 4h-3.983zM25.958 10h-2.997c-0.582-1.836-1.387-3.447-2.354-4.732 1.329 0.636 2.533 1.488 3.585 2.54 0.671 0.671 1.261 1.404 1.766 2.192zM5.808 7.808c1.052-1.052 2.256-1.904 3.585-2.54-0.967 1.285-1.771 2.896-2.354 4.732h-2.997c0.504-0.788 1.094-1.521 1.766-2.192zM4.042 24h2.997c0.583 1.836 1.387 3.447 2.354 4.732-1.329-0.636-2.533-1.488-3.585-2.54-0.671-0.671-1.261-1.404-1.766-2.192zM24.192 26.192c-1.052 1.052-2.256 1.904-3.585 2.54 0.967-1.285 1.771-2.896 2.354-4.732h2.997c-0.504 0.788-1.094 1.521-1.766 2.192z"></path></g></svg></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-b0b8fa" data-block-id="f6ebed3ef78d2dbc8b17514859eda33a" style="width: 136.02px; height: 106.266px; left: 43.74px; top: 181.234px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 22;"><img class="" data-natural-width="192" data-natural-height="150" data-lazy-loaded="" data-src="deck/7a983cd3871c2c1a7b063785b0179285.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 118.5px; height: 118.5px; left: 383.75px; top: 340px; min-width: 1px; min-height: 1px;" data-block-id="3cf1d6dbe3fe319c294f87cdd19d175e" data-name="image-f56f71"><div class="sl-block-content" style="z-index: 19;"><img class="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="deck/a616b03c140863061ffdb0404e00fd76.png"></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-e37597" data-block-id="fff00d30c551e28d961b6e9366722a34" style="height: auto; width: 210px; left: 332.625px; top: 244.5px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 20;">
+<p>New</p>
+
+<p>Database 👶</p>
+</div></div>
+
+<div class="sl-block" data-block-type="line" data-name="line-6b5965" data-block-id="97fe481aa997f05c38943aa13dd6f1f1" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 219px; top: 350px;"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="113.625" data-line-y2="0" data-line-color="#a8276b" data-line-start-type="none" data-line-end-type="line-arrow" style="z-index: 21;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="113.625" height="1" viewbox="0 0 113.625 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="0" x2="111.625" y2="0"></line><line class="line-element" stroke="#a8276b" stroke-width="2" x1="0" y1="0" x2="111.625" y2="0"></line><path style="fill: rgba(0,0,0,0);" stroke="#a8276b" stroke-width="2" transform="translate(111.625,0) rotate(90)" d="M 6 6 L 0 0 L -6 6"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 219px; top: 391px;" data-block-id="6e2b37e337ac23eb8abd5231bfe554b9" data-name="line-01c06f"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="113.625" data-line-y2="0" data-line-color="#93c47d" data-line-start-type="line-arrow" data-line-end-type="none" style="z-index: 23;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="113.625" height="1" viewbox="0 0 113.625 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="2" y1="0" x2="113.625" y2="0"></line><line class="line-element" stroke="#93c47d" stroke-width="2" x1="2" y1="0" x2="113.625" y2="0"></line><path style="fill: rgba(0,0,0,0);" stroke="#93c47d" stroke-width="2" transform="translate(2,0) rotate(90)" d="M -6 -6 L 0 0 L 6 -6"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 521px; top: 399.25px;" data-block-id="aaceec7e21305680843682108918ed5e" data-name="line-e8903a"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="118.23700000000008" data-line-y2="0" data-line-color="#a8276b" data-line-start-type="none" data-line-end-type="line-arrow" style="z-index: 24;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="118.23700000000008" height="1" viewbox="0 0 118.23700000000008 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="0" x2="116.23700000000008" y2="0"></line><line class="line-element" stroke="#a8276b" stroke-width="2" x1="0" y1="0" x2="116.23700000000008" y2="0"></line><path style="fill: rgba(0,0,0,0);" stroke="#a8276b" stroke-width="2" transform="translate(116.23700000000008,0) rotate(90)" d="M 6 6 L 0 0 L -6 6"></path></svg></div></div>
+<div class="sl-block" data-block-type="image" style="width: 118.5px; height: 118.5px; left: 641.75px; top: 341.25px; min-width: 1px; min-height: 1px;" data-block-id="e288e38c204704fd920921250fa49e28" data-name="image-6d7f97"><div class="sl-block-content" style="z-index: 25;"><img class="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="deck/a616b03c140863061ffdb0404e00fd76.png"></div></div>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-706c0e" data-block-id="c8d9acc62372ee33654902ba22d70b4f" style="height: auto; width: 163px; left: 369px; top: 491.117px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 26;">
+<p style="text-align:left">Double</p>
+
+<p style="text-align:left">writing 🖊️</p>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-8994d8" data-block-id="2b0c1c72e9cde217fec2d9a2d580b5ca" style="height: auto; width: 116px; left: 208.75px; top: 311px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 27;"><p style="text-align:left"><strong><span style="color:#800080">WRITE</span></strong></p></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-83a684" data-block-id="5e7c03ff726b57ddc81eff3f36af0523" style="height: auto; width: 142.5px; left: 190.125px; top: 400.5px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 28;"><p><span style="color:#008000"><strong>READ</strong></span></p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 116px; left: 532px; top: 352px;" data-block-id="c970088251376e9834a9befc568535a2" data-name="text-ed0517"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 29;"><p style="text-align:left"><strong><span style="color:#800080">WRITE</span></strong></p></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 116px; height: 105.766px; left: 815px; top: 144.851px;" data-block-id="938a4681869926b97a72ca794db58cfa" data-name="shape-5d4f38"><div class="sl-block-content" data-shape-type="symbol-cog" data-shape-fill-color="rgb(0, 0, 255)" data-shape-stretch="true" style="z-index: 30;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="-0.000002384185791015625 4.76837158203125e-7 32.000003814697266 32"><g class="shape-element" fill="rgb(0, 0, 255)" data-viewbox="-0.000002384185791015625 4.76837158203125e-7 32.000003814697266 32"><path d="M32 17.969v-4l-4.781-1.992c-0.133-0.375-0.273-0.738-0.445-1.094l1.93-4.805-2.829-2.828-4.762 1.961c-0.363-0.176-0.734-0.324-1.117-0.461l-2.027-4.75h-4l-1.977 4.734c-0.398 0.141-0.781 0.289-1.16 0.469l-4.754-1.91-2.828 2.828 1.938 4.711c-0.188 0.387-0.34 0.781-0.485 1.188l-4.703 2.011v4l4.707 1.961c0.145 0.406 0.301 0.801 0.488 1.188l-1.902 4.742 2.828 2.828 4.723-1.945c0.379 0.18 0.766 0.324 1.164 0.461l2.023 4.734h4l1.98-4.758c0.379-0.141 0.754-0.289 1.113-0.461l4.797 1.922 2.828-2.828-1.969-4.773c0.168-0.359 0.305-0.723 0.438-1.094l4.782-2.039zM15.969 22c-3.312 0-6-2.688-6-6s2.688-6 6-6 6 2.688 6 6-2.688 6-6 6z"></path></g></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 116px; height: 105.766px; left: 847.5px; top: 338.117px;" data-block-id="fe36f29714f4f0cc0e5895e3a5debe57" data-name="shape-712f5b"><div class="sl-block-content" data-shape-type="symbol-cog" data-shape-fill-color="rgb(106, 168, 79)" data-shape-stretch="true" style="z-index: 32;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="-0.000002384185791015625 4.76837158203125e-7 32.000003814697266 32"><g class="shape-element" fill="rgb(106, 168, 79)" data-viewbox="-0.000002384185791015625 4.76837158203125e-7 32.000003814697266 32"><path d="M32 17.969v-4l-4.781-1.992c-0.133-0.375-0.273-0.738-0.445-1.094l1.93-4.805-2.829-2.828-4.762 1.961c-0.363-0.176-0.734-0.324-1.117-0.461l-2.027-4.75h-4l-1.977 4.734c-0.398 0.141-0.781 0.289-1.16 0.469l-4.754-1.91-2.828 2.828 1.938 4.711c-0.188 0.387-0.34 0.781-0.485 1.188l-4.703 2.011v4l4.707 1.961c0.145 0.406 0.301 0.801 0.488 1.188l-1.902 4.742 2.828 2.828 4.723-1.945c0.379 0.18 0.766 0.324 1.164 0.461l2.023 4.734h4l1.98-4.758c0.379-0.141 0.754-0.289 1.113-0.461l4.797 1.922 2.828-2.828-1.969-4.773c0.168-0.359 0.305-0.723 0.438-1.094l4.782-2.039zM15.969 22c-3.312 0-6-2.688-6-6s2.688-6 6-6 6 2.688 6 6-2.688 6-6 6z"></path></g></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 116px; height: 105.766px; left: 822px; top: 524.234px;" data-block-id="becfe69c9cd18e8fd1d40a15c612f8e8" data-name="shape-b5ba9f"><div class="sl-block-content" data-shape-type="symbol-cog" data-shape-fill-color="rgb(255, 0, 0)" data-shape-stretch="true" style="z-index: 33;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="-0.000002384185791015625 4.76837158203125e-7 32.000003814697266 32"><g class="shape-element" fill="rgb(255, 0, 0)" data-viewbox="-0.000002384185791015625 4.76837158203125e-7 32.000003814697266 32"><path d="M32 17.969v-4l-4.781-1.992c-0.133-0.375-0.273-0.738-0.445-1.094l1.93-4.805-2.829-2.828-4.762 1.961c-0.363-0.176-0.734-0.324-1.117-0.461l-2.027-4.75h-4l-1.977 4.734c-0.398 0.141-0.781 0.289-1.16 0.469l-4.754-1.91-2.828 2.828 1.938 4.711c-0.188 0.387-0.34 0.781-0.485 1.188l-4.703 2.011v4l4.707 1.961c0.145 0.406 0.301 0.801 0.488 1.188l-1.902 4.742 2.828 2.828 4.723-1.945c0.379 0.18 0.766 0.324 1.164 0.461l2.023 4.734h4l1.98-4.758c0.379-0.141 0.754-0.289 1.113-0.461l4.797 1.922 2.828-2.828-1.969-4.773c0.168-0.359 0.305-0.723 0.438-1.094l4.782-2.039zM15.969 22c-3.312 0-6-2.688-6-6s2.688-6 6-6 6 2.688 6 6-2.688 6-6 6z"></path></g></svg></div></div>
+<div class="sl-block" data-block-type="line" data-name="line-e01183" data-block-id="7580ea14e3b91c3828a6b5437ff60e33" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 763px; top: 234.367px;"><div class="sl-block-content" data-line-x1="0" data-line-y1="105.63299999999998" data-line-x2="59" data-line-y2="0" data-line-color="#000000" data-line-start-type="none" data-line-end-type="none" style="z-index: 10;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="59" height="105.63299999999998" viewbox="0 0 59 105.63299999999998"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="105.63299999999998" x2="59" y2="0"></line><line class="line-element" stroke="#000000" stroke-width="2" x1="0" y1="105.63299999999998" x2="59" y2="0"></line></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 775.987px; top: 391px;" data-block-id="b434780f12f75fba615425ce58dc04a2" data-name="line-6aa640"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="68.01300000000003" data-line-y2="0" data-line-color="#000000" data-line-start-type="none" data-line-end-type="none" style="z-index: 34;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="68.01300000000003" height="1" viewbox="0 0 68.01300000000003 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="0" x2="68.01300000000003" y2="0"></line><line class="line-element" stroke="#000000" stroke-width="2" x1="0" y1="0" x2="68.01300000000003" y2="0"></line></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 763px; top: 458.5px;" data-block-id="cbced8cfc2525ade708ff1bac48d12d3" data-name="line-698cce"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="73" data-line-y2="77" data-line-color="#000000" data-line-start-type="none" data-line-end-type="none" style="z-index: 35;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="73" height="77" viewbox="0 0 73 77"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="0" x2="73" y2="77"></line><line class="line-element" stroke="#000000" stroke-width="2" x1="0" y1="0" x2="73" y2="77"></line></svg></div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="ec44037ceb9e71eb4576a254efb368a2">
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-a22dd8" style="width: auto; height: auto;" data-block-id="295d3f71c8526d63d6bf8587d8fae3ef"><div class="sl-block-content sl-block-group-content" style="transform-origin: 830.5px 675.5px; z-index: 10;">
+<div class="sl-block" data-block-type="text" data-name="text-4d4062" style="height: auto; width: 199px; left: 748px; top: 656px;" data-block-id="7c4251ec09b1b6fa9531e910e237d9bb"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; color: rgb(74, 134, 232);"><pre> @SmaineDev</pre></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-ff53d5" style="width: 49px; height: 49px; left: 714px; top: 651px; min-width: 1px; min-height: 1px;" data-block-id="6df8ad182d3435cafc871ee7f7501f1e"><div class="sl-block-content" style="z-index: 14;"><img class="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="deck/4c5b2d16a7b9986f9a7d849b396faad8.png"></div></div>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-accc49" style="height: auto; width: 600px; left: 136px; top: 0px;" data-block-id="3335109de25eab045817ed6da8afad7b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;"><h2><span style="color:#0000ff">TEAM ECOMMERCE</span></h2></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-38f2e0" style="width: 149px; height: 149px; left: 599px; top: 521.133px; min-width: 1px; min-height: 1px;" data-block-id="a15beebec65b9ce2348f4f156190b884"><div class="sl-block-content" style="z-index: 16;"><img class="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="deck/a616b03c140863061ffdb0404e00fd76.png"></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-2a2e7f" style="height: auto; width: 186px; left: 599px; top: 435.133px;" data-block-id="b5f304228a4bdcd8c48695cc3f16115a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17;">
+<p style="text-align:left">Legacy</p>
+
+<p style="text-align:left">Database 👴</p>
+</div></div>
+<div class="sl-block" data-block-type="image" data-name="image-3e13ee" style="width: 84.133px; height: 84.133px; left: 109.3px; top: 555.5px; min-width: 1px; min-height: 1px;" data-block-id="1c9daa5403d975a04524456f74be8e7f"><div class="sl-block-content" style="z-index: 18;"><img class="" data-natural-width="300" data-natural-height="300" data-lazy-loaded="" data-src="deck/f206c92c0cb454dd13f55c9111deba5a.png"></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 253.5px; top: 161px;" data-name="line-e8903a" data-block-id="88718ace2c3825630bf362fe618e3d7a"><div class="sl-block-content" data-line-x1="0" data-line-y1="209" data-line-x2="335" data-line-y2="0" data-line-color="#a8276b" data-line-start-type="none" data-line-end-type="line-arrow" style="z-index: 19;" data-line-width="5px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="335" height="209" viewbox="0 0 335 209"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0.5" y1="209.5" x2="332.3184067238628" y2="2.4849343125751755"></line><line class="line-element" stroke="#a8276b" stroke-width="5" x1="0.5" y1="209.5" x2="332.3184067238628" y2="2.4849343125751755"></line><path style="fill: rgba(0,0,0,0);" stroke="#a8276b" stroke-width="5" transform="translate(331.8184067238628,1.9849343125751755) rotate(58.041)" d="M 11.25 11.25 L 0 0 L -11.25 11.25"></path></svg></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-006337" style="width: 213.266px; height: 213.266px; left: 44.734px; top: 307.867px; min-width: 1px; min-height: 1px;" data-block-id="9b8d023c2a6a2d70d3c4849691612b13"><div class="sl-block-content" style="z-index: 20;"><img class="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="deck/050a99d033bb9fccd424371e94b0100a.png"></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 253.5px; top: 413.5px;" data-name="line-2f7155" data-block-id="b6440c9cb214933525658c95a44218f2"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="335" data-line-y2="107.63300000000004" data-line-color="#93c47d" data-line-start-type="line-arrow" data-line-end-type="none" style="z-index: 21;" data-line-width="5px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="335" height="107.63300000000004" viewbox="0 0 335 107.63300000000004"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="4.070248569302853" y1="1.6470942216709676" x2="335.5" y2="108.13300000000004"></line><line class="line-element" stroke="#93c47d" stroke-width="5" x1="4.070248569302853" y1="1.6470942216709676" x2="335.5" y2="108.13300000000004"></line><path style="fill: rgba(0,0,0,0);" stroke="#93c47d" stroke-width="5" transform="translate(3.5702485693028536,1.1470942216709676) rotate(107.812)" d="M -11.25 -11.25 L 0 0 L 11.25 -11.25"></path></svg></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-7a1310" style="width: 109.72px; height: 80.952px; left: 41.647px; top: 181.53px; min-width: 1px; min-height: 1px;" data-block-id="64a1d1b76b298764c21e19063aad726d"><div class="sl-block-content" style="z-index: 22;"><img class="" data-natural-width="656" data-natural-height="484" data-lazy-loaded="" data-src="deck/4020bb86ce1f7f5a95b2cbc89dac8a85.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 104.331px; height: 76.976px; left: 115.609px; top: 79.512px; min-width: 1px; min-height: 1px;" data-name="image-642673" data-block-id="cc8299ab7d7d705cba6b8eef7a4f882d"><div class="sl-block-content" style="z-index: 23;"><img class="" data-natural-width="656" data-natural-height="484" data-lazy-loaded="" data-src="deck/4020bb86ce1f7f5a95b2cbc89dac8a85.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 121.092px; height: 89.3426px; left: 179.219px; top: 181.53px; min-width: 1px; min-height: 1px;" data-name="image-02047c" data-block-id="2b75496486e46e47a64cabdccd58b529"><div class="sl-block-content" style="z-index: 24;"><img class="" data-natural-width="656" data-natural-height="484" data-lazy-loaded="" data-src="deck/4020bb86ce1f7f5a95b2cbc89dac8a85.png"></div></div>
+<div class="sl-block" data-block-type="shape" data-name="shape-262433" style="width: 112px; height: 120.5px; left: 605.25px; top: 131.5px;" data-block-id="929601e076f6462d7fbc5f0ec000d24b"><div class="sl-block-content" data-shape-type="symbol-globe" data-shape-fill-color="rgb(255, 153, 0)" data-shape-stretch="true" style="z-index: 25;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 2 30 30"><g class="shape-element" fill="rgb(255, 153, 0)" data-viewbox="0 2 30 30"><path d="M15 2c-8.284 0-15 6.716-15 15s6.716 15 15 15c8.284 0 15-6.716 15-15s-6.716-15-15-15zM23.487 22c0.268-1.264 0.437-2.606 0.492-4h3.983c-0.104 1.381-0.426 2.722-0.959 4h-3.516zM6.513 12c-0.268 1.264-0.437 2.606-0.492 4h-3.983c0.104-1.381 0.426-2.722 0.959-4h3.516zM21.439 12c0.3 1.28 0.481 2.62 0.54 4h-5.979v-4h5.439zM16 10v-5.854c0.456 0.133 0.908 0.355 1.351 0.668 0.831 0.586 1.625 1.488 2.298 2.609 0.465 0.775 0.867 1.638 1.203 2.578h-4.852zM10.351 7.422c0.673-1.121 1.467-2.023 2.298-2.609 0.443-0.313 0.895-0.535 1.351-0.668v5.854h-4.852c0.336-0.94 0.738-1.803 1.203-2.578zM14 12v4h-5.979c0.059-1.38 0.24-2.72 0.54-4h5.439zM2.997 22c-0.533-1.278-0.854-2.619-0.959-4h3.983c0.055 1.394 0.224 2.736 0.492 4h-3.516zM8.021 18h5.979v4h-5.439c-0.3-1.28-0.481-2.62-0.54-4zM14 24v5.854c-0.456-0.133-0.908-0.355-1.351-0.668-0.831-0.586-1.625-1.488-2.298-2.609-0.465-0.775-0.867-1.638-1.203-2.578h4.852zM19.649 26.578c-0.673 1.121-1.467 2.023-2.298 2.609-0.443 0.312-0.895 0.535-1.351 0.668v-5.854h4.852c-0.336 0.94-0.738 1.802-1.203 2.578zM16 22v-4h5.979c-0.059 1.38-0.24 2.72-0.54 4h-5.439zM23.98 16c-0.055-1.394-0.224-2.736-0.492-4h3.516c0.533 1.278 0.855 2.619 0.959 4h-3.983zM25.958 10h-2.997c-0.582-1.836-1.387-3.447-2.354-4.732 1.329 0.636 2.533 1.488 3.585 2.54 0.671 0.671 1.261 1.404 1.766 2.192zM5.808 7.808c1.052-1.052 2.256-1.904 3.585-2.54-0.967 1.285-1.771 2.896-2.354 4.732h-2.997c0.504-0.788 1.094-1.521 1.766-2.192zM4.042 24h2.997c0.583 1.836 1.387 3.447 2.354 4.732-1.329-0.636-2.533-1.488-3.585-2.54-0.671-0.671-1.261-1.404-1.766-2.192zM24.192 26.192c-1.052 1.052-2.256 1.904-3.585 2.54 0.967-1.285 1.771-2.896 2.354-4.732h2.997c-0.504 0.788-1.094 1.521-1.766 2.192z"></path></g></svg></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-b0b8fa" style="width: 61.9016px; height: 48.3606px; left: 676.598px; top: 91.6394px; min-width: 1px; min-height: 1px;" data-block-id="0e6287cf94f634e38aed0acaa7665d75"><div class="sl-block-content" style="z-index: 26;"><img class="" data-natural-width="192" data-natural-height="150" data-lazy-loaded="" data-src="deck/7a983cd3871c2c1a7b063785b0179285.png"></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-5f88d4" style="height: auto; width: 145.75px; left: 734.25px; top: 162.03px;" data-block-id="7af0e012d12ff9dc8ffacddb6b1f4301"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 27;"><p style="text-align:left"><strong><span style="color:#ffa500">TEAM API</span></strong></p></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-917d5c" style="height: auto; width: 153px; left: 344.5px; top: 201.03px;" data-block-id="5c243ea632cf29eadd9349a506dfb2d8"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 28;"><p><span style="color:#a52a2a"><strong>WRITE</strong></span></p></div></div>
+<div class="sl-block" data-block-type="line" data-name="line-4e357b" style="width: auto; height: auto; left: 699.25px; top: 245px;" data-block-id="9870b83bfff19e52ce2bacc6e0ec69e9"><div class="sl-block-content" data-line-x1="0" data-line-y1="198" data-line-x2="0" data-line-y2="0" data-line-color="#a8276b" data-line-start-type="line-arrow" data-line-end-type="none" style="z-index: 29;" data-line-width="5px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="198" viewbox="0 0 1 198"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0.5" y1="194.75" x2="0.5" y2="0.5"></line><line class="line-element" stroke="#a8276b" stroke-width="5" x1="0.5" y1="194.75" x2="0.5" y2="0.5"></line><path style="fill: rgba(0,0,0,0);" stroke="#a8276b" stroke-width="5" transform="translate(0,194.25) rotate(0)" d="M -11.25 -11.25 L 0 0 L 11.25 -11.25"></path></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 153px; left: 686.5px; top: 330.5px;" data-name="text-57b27f" data-block-id="90cc6688ff429d0b64b38ecb0d15cc08"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 30;"><p><strong><span style="color:#800000">WRITE</span></strong></p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 153px; left: 327px; top: 482.133px;" data-name="text-77e8a0" data-block-id="c4cf135a51629c35255a70144a8645f4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 31;"><p><strong><span style="color:#008000">READ</span></strong></p></div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="1dbdaf8c89e5a2b29da87787404f42ed">
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-a22dd8" style="width: auto; height: auto;" data-block-id="9dfe503b92813e59affb60649b2dec71"><div class="sl-block-content sl-block-group-content" style="transform-origin: 830.5px 675.5px; z-index: 10;">
+<div class="sl-block" data-block-type="text" data-name="text-4d4062" style="height: auto; width: 199px; left: 748px; top: 656px;" data-block-id="8d17ffb77cbb7b5a1ba3b7ba943865df"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(74, 134, 232);"><pre> @SmaineDev</pre></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-ff53d5" style="width: 49px; height: 49px; left: 714px; top: 651px; min-width: 1px; min-height: 1px;" data-block-id="e9a3a1ab6d455bbabaa60fa00e5b4537"><div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="deck/4c5b2d16a7b9986f9a7d849b396faad8.png"></div></div>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-accc49" style="height: auto; width: 600px; left: 136px; top: 0px;" data-block-id="3f6ada6eed6a7556a963117198d5aa44"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<h2>Double writing</h2>
+
+<h2>For the win 🔥</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-85c65a" data-block-id="aec01b667caf473e0de45f46e0f93ba3" style="height: auto; width: 600px; left: 187px; top: 280px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p style="text-align:left">📆 progressive migration</p>
+
+<p style="text-align:left">🛣️ independent team</p>
+</div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="8c4be69f5d4eed8d0af03bd5d8957e76">
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-a22dd8" style="width: auto; height: auto;" data-block-id="5008e1d7c181c1c7abd3b568556a4d4e"><div class="sl-block-content sl-block-group-content" style="transform-origin: 830.5px 675.5px; z-index: 10;">
+<div class="sl-block" data-block-type="text" data-name="text-4d4062" style="height: auto; width: 199px; left: 748px; top: 656px;" data-block-id="67bc90a18cb07742046ac0c352f2f9a3"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; color: rgb(74, 134, 232);"><pre> @SmaineDev</pre></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-ff53d5" style="width: 49px; height: 49px; left: 714px; top: 651px; min-width: 1px; min-height: 1px;" data-block-id="a91c84a0752ba2097f29f20ed7d9bb0e"><div class="sl-block-content" style="z-index: 14;"><img class="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="deck/4c5b2d16a7b9986f9a7d849b396faad8.png"></div></div>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-accc49" style="height: auto; width: 600px; left: 136px; top: 0px;" data-block-id="aea91b15f4f578a5cbf89f72d4e5cbe3"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<h2>Double writing</h2>
+
+<h2>problem(s) 😅</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-85c65a" style="height: auto; width: 600px; left: 187px; top: 280px;" data-block-id="b70b5bfcaa29c8807147f043ed4c8c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
+<p style="text-align:left">🐌 Double work</p>
+
+<p style="text-align:left">⏳ Synchronization problems </p>
+
+<p style="text-align:left">🕵️‍♂️ hard to debug</p>
+
+<p style="text-align:left">🤯 Different sources of truth</p>
+</div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="f1b8d41fe7c087845628093cc53620e6">
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-a22dd8" style="width: auto; height: auto;" data-block-id="b8d946c1fd317e2f6185538f5df3e408"><div class="sl-block-content sl-block-group-content" style="transform-origin: 830.5px 675.5px; z-index: 10;">
+<div class="sl-block" data-block-type="text" data-name="text-4d4062" style="height: auto; width: 199px; left: 748px; top: 656px;" data-block-id="ae9501850243f397ce8fdfac078eccc5"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(74, 134, 232);"><pre> @SmaineDev</pre></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-ff53d5" style="width: 49px; height: 49px; left: 714px; top: 651px; min-width: 1px; min-height: 1px;" data-block-id="15b6e60f6ce6796f7fc8e04993c05576"><div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="deck/4c5b2d16a7b9986f9a7d849b396faad8.png"></div></div>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-accc49" style="height: auto; width: 600px; left: 136px; top: 0px;" data-block-id="fc7900f6f522de5e2b08d44785959b43"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;"><h2>GOAL 🎯</h2></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-85c65a" style="height: auto; width: 798px; left: 107px; top: 270px;" data-block-id="0c35b431c6af9640ad852ad45eb357c1"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<h3 style="text-align:left">Having ONLY one source of truth!</h3>
+
+<p> </p>
+
+<h3 style="text-align:left"><strong>👉🏽 <s><span style="color:#800000">Write*</span></s> and <span style="color:#008000">READ</span> from the API 💫</strong></h3>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-ccfda4" data-block-id="edbf2dac7254c76dbf403fb5133f4264" style="height: auto; width: 600px; left: 20px; top: 651px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;"><p style="text-align: left;">*write is already implemented </p></div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="d84ed91bba0846b62400999b832a9eae">
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-a22dd8" style="width: auto; height: auto;" data-block-id="53611d53bcf3d93e140f9ca2af88ceef"><div class="sl-block-content sl-block-group-content" style="transform-origin: 830.5px 675.5px; z-index: 10;">
+<div class="sl-block" data-block-type="text" data-name="text-4d4062" style="height: auto; width: 199px; left: 748px; top: 656px;" data-block-id="edb24cc4140309ea361357cb5e23edea"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(74, 134, 232);"><pre> @SmaineDev</pre></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-ff53d5" style="width: 49px; height: 49px; left: 714px; top: 651px; min-width: 1px; min-height: 1px;" data-block-id="e2367974657a2aa3df7ef25834f441b0"><div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="deck/4c5b2d16a7b9986f9a7d849b396faad8.png"></div></div>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-accc49" style="height: auto; width: 600px; left: 136px; top: 0px;" data-block-id="1fe9c39f4beff44be3a16c739aa5a5cc"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;"><h2>Goal 🎯</h2></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-38f2e0" style="width: 149px; height: 149px; left: 599px; top: 521.133px; min-width: 1px; min-height: 1px;" data-block-id="a3ab0eade97c87b1de5f840609cf5074"><div class="sl-block-content" style="z-index: 14;"><img class="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="deck/a616b03c140863061ffdb0404e00fd76.png"></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-2a2e7f" style="height: auto; width: 186px; left: 599px; top: 435.133px;" data-block-id="694b0408955222fdb188c90a41bcc513"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<p style="text-align:left">Legacy</p>
+
+<p style="text-align:left">Database 👴</p>
+</div></div>
+<div class="sl-block" data-block-type="image" data-name="image-3e13ee" style="width: 84.133px; height: 84.133px; left: 109.3px; top: 555.5px; min-width: 1px; min-height: 1px;" data-block-id="1153d8b3d1bbd909c588c5243ab24b33"><div class="sl-block-content" style="z-index: 16;"><img class="" data-natural-width="300" data-natural-height="300" data-lazy-loaded="" data-src="deck/f206c92c0cb454dd13f55c9111deba5a.png"></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 253.5px; top: 161px;" data-name="line-e8903a" data-block-id="b137ee86a2a26e996a10105bc635bc27"><div class="sl-block-content" data-line-x1="0" data-line-y1="209" data-line-x2="335" data-line-y2="0" data-line-color="#a8276b" data-line-start-type="none" data-line-end-type="line-arrow" style="z-index: 17;" data-line-width="5px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="335" height="209" viewbox="0 0 335 209"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0.5" y1="209.5" x2="332.3184067238628" y2="2.4849343125751755"></line><line class="line-element" stroke="#a8276b" stroke-width="5" x1="0.5" y1="209.5" x2="332.3184067238628" y2="2.4849343125751755"></line><path style="fill: rgba(0,0,0,0);" stroke="#a8276b" stroke-width="5" transform="translate(331.8184067238628,1.9849343125751755) rotate(58.041)" d="M 11.25 11.25 L 0 0 L -11.25 11.25"></path></svg></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-006337" style="width: 213.266px; height: 213.266px; left: 44.734px; top: 307.867px; min-width: 1px; min-height: 1px;" data-block-id="565c2841069277994e634f4382340c5e"><div class="sl-block-content" style="z-index: 18;"><img class="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="deck/050a99d033bb9fccd424371e94b0100a.png"></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 259.5px; top: 226.201px;" data-name="line-2f7155" data-block-id="7961704c08a2776afef34d7a57c858ca"><div class="sl-block-content" data-line-x1="0" data-line-y1="211.1274" data-line-x2="329" data-line-y2="0" data-line-color="#93c47d" data-line-start-type="line-arrow" data-line-end-type="none" style="z-index: 19;" data-line-width="5px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="329" height="211.1274" viewbox="0 0 329 211.1274"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="3.6560441199843936" y1="209.60208878620793" x2="329.5" y2="0.5"></line><line class="line-element" stroke="#93c47d" stroke-width="5" x1="3.6560441199843936" y1="209.60208878620793" x2="329.5" y2="0.5"></line><path style="fill: rgba(0,0,0,0);" stroke="#93c47d" stroke-width="5" transform="translate(3.1560441199843936,209.10208878620793) rotate(57.311)" d="M -11.25 -11.25 L 0 0 L 11.25 -11.25"></path></svg></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-7a1310" style="width: 109.72px; height: 80.952px; left: 41.647px; top: 181.53px; min-width: 1px; min-height: 1px;" data-block-id="6210003d6b2d38d15943004c805b83c6"><div class="sl-block-content" style="z-index: 20;"><img class="" data-natural-width="656" data-natural-height="484" data-lazy-loaded="" data-src="deck/4020bb86ce1f7f5a95b2cbc89dac8a85.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 104.331px; height: 76.976px; left: 114.609px; top: 101.512px; min-width: 1px; min-height: 1px;" data-name="image-642673" data-block-id="be15f3c846d66063d1684ccffb397fe1"><div class="sl-block-content" style="z-index: 21;"><img class="" data-natural-width="656" data-natural-height="484" data-lazy-loaded="" data-src="deck/4020bb86ce1f7f5a95b2cbc89dac8a85.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 121.092px; height: 89.3426px; left: 179.219px; top: 181.53px; min-width: 1px; min-height: 1px;" data-name="image-02047c" data-block-id="10aa08a242889bb5798b5b11fa7b63bd"><div class="sl-block-content" style="z-index: 22;"><img class="" data-natural-width="656" data-natural-height="484" data-lazy-loaded="" data-src="deck/4020bb86ce1f7f5a95b2cbc89dac8a85.png"></div></div>
+<div class="sl-block" data-block-type="shape" data-name="shape-262433" style="width: 112px; height: 120.5px; left: 605.25px; top: 131.5px;" data-block-id="c152f330815c781bf41f45faa3fadb76"><div class="sl-block-content" data-shape-type="symbol-globe" data-shape-fill-color="rgb(255, 153, 0)" data-shape-stretch="true" style="z-index: 23;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 2 30 30"><g class="shape-element" fill="rgb(255, 153, 0)" data-viewbox="0 2 30 30"><path d="M15 2c-8.284 0-15 6.716-15 15s6.716 15 15 15c8.284 0 15-6.716 15-15s-6.716-15-15-15zM23.487 22c0.268-1.264 0.437-2.606 0.492-4h3.983c-0.104 1.381-0.426 2.722-0.959 4h-3.516zM6.513 12c-0.268 1.264-0.437 2.606-0.492 4h-3.983c0.104-1.381 0.426-2.722 0.959-4h3.516zM21.439 12c0.3 1.28 0.481 2.62 0.54 4h-5.979v-4h5.439zM16 10v-5.854c0.456 0.133 0.908 0.355 1.351 0.668 0.831 0.586 1.625 1.488 2.298 2.609 0.465 0.775 0.867 1.638 1.203 2.578h-4.852zM10.351 7.422c0.673-1.121 1.467-2.023 2.298-2.609 0.443-0.313 0.895-0.535 1.351-0.668v5.854h-4.852c0.336-0.94 0.738-1.803 1.203-2.578zM14 12v4h-5.979c0.059-1.38 0.24-2.72 0.54-4h5.439zM2.997 22c-0.533-1.278-0.854-2.619-0.959-4h3.983c0.055 1.394 0.224 2.736 0.492 4h-3.516zM8.021 18h5.979v4h-5.439c-0.3-1.28-0.481-2.62-0.54-4zM14 24v5.854c-0.456-0.133-0.908-0.355-1.351-0.668-0.831-0.586-1.625-1.488-2.298-2.609-0.465-0.775-0.867-1.638-1.203-2.578h4.852zM19.649 26.578c-0.673 1.121-1.467 2.023-2.298 2.609-0.443 0.312-0.895 0.535-1.351 0.668v-5.854h4.852c-0.336 0.94-0.738 1.802-1.203 2.578zM16 22v-4h5.979c-0.059 1.38-0.24 2.72-0.54 4h-5.439zM23.98 16c-0.055-1.394-0.224-2.736-0.492-4h3.516c0.533 1.278 0.855 2.619 0.959 4h-3.983zM25.958 10h-2.997c-0.582-1.836-1.387-3.447-2.354-4.732 1.329 0.636 2.533 1.488 3.585 2.54 0.671 0.671 1.261 1.404 1.766 2.192zM5.808 7.808c1.052-1.052 2.256-1.904 3.585-2.54-0.967 1.285-1.771 2.896-2.354 4.732h-2.997c0.504-0.788 1.094-1.521 1.766-2.192zM4.042 24h2.997c0.583 1.836 1.387 3.447 2.354 4.732-1.329-0.636-2.533-1.488-3.585-2.54-0.671-0.671-1.261-1.404-1.766-2.192zM24.192 26.192c-1.052 1.052-2.256 1.904-3.585 2.54 0.967-1.285 1.771-2.896 2.354-4.732h2.997c-0.504 0.788-1.094 1.521-1.766 2.192z"></path></g></svg></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-b0b8fa" style="width: 118.26px; height: 92.3906px; left: 599px; top: 27.8047px; min-width: 1px; min-height: 1px;" data-block-id="2f844fea2ce6cb9bb66fb80362cc0394"><div class="sl-block-content" style="z-index: 24;"><img class="" data-natural-width="192" data-natural-height="150" data-lazy-loaded="" data-src="deck/7a983cd3871c2c1a7b063785b0179285.png"></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-5f88d4" style="height: auto; width: 58.5px; left: 726.5px; top: 131.5px;" data-block-id="7dd2c302ee76ad1dfa9cc06cf3179e81"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 25;"><p style="text-align:left"><strong><span style="color:#ffa500">API</span></strong></p></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-917d5c" style="height: auto; width: 153px; left: 344.5px; top: 201.03px;" data-block-id="0743fd9902e941d7468334c013dcc57c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 26;"><p><span style="color:#a52a2a"><strong>WRITE</strong></span></p></div></div>
+<div class="sl-block" data-block-type="line" data-name="line-4e357b" style="width: auto; height: auto; left: 699.25px; top: 245px;" data-block-id="25cd980b2c86fa1dcdfbc2c1f9df249f"><div class="sl-block-content" data-line-x1="0" data-line-y1="198" data-line-x2="0" data-line-y2="0" data-line-color="#a8276b" data-line-start-type="line-arrow" data-line-end-type="none" style="z-index: 27;" data-line-width="5px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="198" viewbox="0 0 1 198"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0.5" y1="194.75" x2="0.5" y2="0.5"></line><line class="line-element" stroke="#a8276b" stroke-width="5" x1="0.5" y1="194.75" x2="0.5" y2="0.5"></line><path style="fill: rgba(0,0,0,0);" stroke="#a8276b" stroke-width="5" transform="translate(0,194.25) rotate(0)" d="M -11.25 -11.25 L 0 0 L 11.25 -11.25"></path></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 153px; left: 686.5px; top: 330.5px;" data-name="text-57b27f" data-block-id="4eca1bffcc5de8e624140fe174a323d2"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 28;"><p><strong><span style="color:#800000">WRITE</span></strong></p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 153px; left: 381px; top: 350.5px;" data-name="text-77e8a0" data-block-id="bb84b52ce58267769bfa9376a00f479a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 29;"><p><strong><span style="color:#008000">READ</span></strong></p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 273.133px; left: 56.8665px; top: 50.512px;" data-block-id="0e457d52fb9e6d92516317eebecfc19d" data-name="text-d608fe"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 30;"><h3 style="text-align:left"><font color="#0000ff">ECOMMERCE</font></h3></div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="46b497a9c3822893c7b3c0e3eab5d0c1">
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-a22dd8" style="width: auto; height: auto;" data-block-id="6934a0d1a8f189111aa8f59cca27a3aa"><div class="sl-block-content sl-block-group-content" style="transform-origin: 830.5px 675.5px; z-index: 10;">
+<div class="sl-block" data-block-type="text" data-name="text-4d4062" style="height: auto; width: 199px; left: 748px; top: 656px;" data-block-id="ba6d0649cfd291a5e1f50913bffd73d3"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(74, 134, 232);"><pre> @SmaineDev</pre></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-ff53d5" style="width: 49px; height: 49px; left: 714px; top: 651px; min-width: 1px; min-height: 1px;" data-block-id="4ecffa97b50651eeec8cebe7c68ca2e7"><div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="deck/4c5b2d16a7b9986f9a7d849b396faad8.png"></div></div>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-accc49" style="height: auto; width: 600px; left: 180px; top: 70px;" data-block-id="bb292b9dec5ccfe0e792501e96e7d4ab"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;"><h2>More context</h2></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-077ed8" data-block-id="afafaa560488162f2eb8b2d41c5cfc10" style="height: auto; width: 795.5px; left: 102.25px; top: 231px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p style="text-align:left">🐛 Lack of tests</p>
+
+<p style="text-align:left">🪨 Huge codebase</p>
+
+<p style="text-align:left">🔌 Should be plugged into the current codebase</p>
+
+<p style="text-align:left">⏳ We are late before the start</p>
+
+<p style="text-align:left">😭 Data Models can be different</p>
+
+<p style="text-align:left">🧩 Not everything is migrated </p>
+
+<p style="text-align:left">💡 Solution should have a good DX</p>
+</div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="001b3326240c9ede1c0464d2ddea9107">
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-a22dd8" style="width: auto; height: auto;" data-block-id="4eb27f376d14a1f337666d9b9df8b470"><div class="sl-block-content sl-block-group-content" style="transform-origin: 830.5px 675.5px; z-index: 10;">
+<div class="sl-block" data-block-type="text" data-name="text-4d4062" style="height: auto; width: 199px; left: 748px; top: 656px;" data-block-id="0322328d34807ec55b24fa8a20e085fe"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; color: rgb(74, 134, 232);"><pre> @SmaineDev</pre></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-ff53d5" style="width: 49px; height: 49px; left: 714px; top: 651px; min-width: 1px; min-height: 1px;" data-block-id="5c5e10ea69671788bc609c4cbd22776c"><div class="sl-block-content" style="z-index: 14;"><img class="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="deck/4c5b2d16a7b9986f9a7d849b396faad8.png"></div></div>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-accc49" style="height: auto; width: 600px; left: 138.5px; top: 90.5px;" data-block-id="21396fc4ec9da0e29bff3f44e8707337"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;"><h2>Context</h2></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-2bae93" style="width: 191.042px; height: 140.952px; left: 102.5px; top: 331px; min-width: 1px; min-height: 1px;" data-block-id="89e082552c1108366b075eb2a9546810"><div class="sl-block-content" style="z-index: 16;"><img class="" data-natural-width="656" data-natural-height="484" data-lazy-loaded="" data-src="deck/f7173553e6be8c8cedb0cd96236435df.png"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-7a1310" style="width: 189.72px; height: 139.976px; left: 512.03px; top: 255.506px; min-width: 1px; min-height: 1px;" data-block-id="068db2fc44033bdfc0387fc87e165636"><div class="sl-block-content" style="z-index: 17;"><img class="" data-natural-width="656" data-natural-height="484" data-lazy-loaded="" data-src="deck/4020bb86ce1f7f5a95b2cbc89dac8a85.png"></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-d60b7a" style="height: auto; width: 247px; left: 73px; top: 266.5px;" data-block-id="64473ee4c6f3c656c5af7f841d48d0e2"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 18;"><p><span style="color:#ff8c00">Team API</span></p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 325.47px; left: 551.265px; top: 201px;" data-name="text-25c790" data-block-id="e9a40af6d34e1f037a3cfdbe8eb0117c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 19;"><p><span style="color:#0000ff">Team ECOMMERCE</span></p></div></div>
+<div class="sl-block" data-block-type="image" style="width: 189.72px; height: 139.976px; left: 726.25px; top: 255.506px; min-width: 1px; min-height: 1px;" data-name="image-642673" data-block-id="68409169d23b5dd7990ef6581c19d0e0"><div class="sl-block-content" style="z-index: 20;"><img class="" data-natural-width="656" data-natural-height="484" data-lazy-loaded="" data-src="deck/4020bb86ce1f7f5a95b2cbc89dac8a85.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 189.72px; height: 139.976px; left: 612.89px; top: 420.518px; min-width: 1px; min-height: 1px;" data-name="image-02047c" data-block-id="70619ff6bc2602563dea0d59eba88fc8"><div class="sl-block-content" style="z-index: 21;"><img class="" data-natural-width="656" data-natural-height="484" data-lazy-loaded="" data-src="deck/4020bb86ce1f7f5a95b2cbc89dac8a85.png"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-120aa0" style="width: 77px; height: 77px; left: 521.5px; top: 484.944px; min-width: 1px; min-height: 1px;" data-block-id="6118e9ca0c7c336ba6ad873cbd17d5d2"><div class="sl-block-content" style="z-index: 22;"><img class="" data-natural-width="400" data-natural-height="400" data-lazy-loaded="" data-src="deck/798775742ac3cb81d3c088c9b10bde7e.png"></div></div>
+<div class="sl-block" data-block-type="line" data-name="line-43f719" style="width: auto; height: auto; left: 457px; top: 544.661px;" data-block-id="387708962d1e07be7e51559707036794"><div class="sl-block-content" data-line-x1="45.50010000000003" data-line-y1="0" data-line-x2="0" data-line-y2="50" data-line-color="#000000" data-line-start-type="line-arrow" data-line-end-type="none" style="z-index: 23;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="45.50010000000003" height="50" viewbox="0 0 45.50010000000003 50"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="44.1540167015166" y1="1.4792091649066998" x2="0" y2="50"></line><line class="line-element" stroke="#000000" stroke-width="2" x1="44.1540167015166" y1="1.4792091649066998" x2="0" y2="50"></line><path style="fill: rgba(0,0,0,0);" stroke="#000000" stroke-width="2" transform="translate(44.1540167015166,1.4792091649066998) rotate(222.302)" d="M -6 -6 L 0 0 L 6 -6"></path></svg></div></div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-3ed1b6" data-block-id="1535d3802717aaf6312d24f5025c7107"><div class="sl-block-content sl-block-group-content" style="transform-origin: 448.644px 639.26px; z-index: 24;">
+<div class="sl-block" data-block-type="drawing" data-name="drawing-034711" style="width: 39.1988px; height: 43.4363px; left: 385.258px; top: 620.445px;" data-block-id="c9abc1351e397bc585764b4d41c08c8c"><div class="sl-block-content" data-points="294.61 646.62,294.61 639.9,294.61 637.84,294.61 635.83,294.61 633.63,294.61 631.63,294.61 625.95,294.61 622.45,294.61 619.52,294.61 617.2,294.61 614.45,295.25 612.37,296.31 610.55,297.02 612.83,299.02 615.88,300.35 617.89,302.24 620.11,304.13 622.33,306.43 625.11,309.32 628.59,311.57 631.71,313.45 634.28,315.24 636.7,316.57 638.5,318.04 640.36,318.74 637.96,318.88 633.55,319.41 629.7,320.42 626.67,321.63 623.61,322.56 621.22,323.78 618.14,324.55 616.18,325.14 613.69" data-timestamp="1688816518974" style="z-index: 30;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="none" width="100%" height="100%" viewbox="290.64801025390625 606.8687133789062 36.7374267578125 43.436279296875"><path fill="rgb(109, 158, 235)" d="M 290.87617 645.15 Q 290.88 645.15 290.89 642.63 290.9 640.11 290.85 638.37 290.79 636.63 290.72 633.62 290.66 630.61 290.67 627.81 290.69 625.01 290.65 621.84 290.61 618.67 291.38 614.22 292.15 609.77 292.84 608.69 293.53 607.61 294.72 607.14 295.92 606.68 297.16 607 298.4 607.32 299.21 608.31 300.03 609.3 300.48 610.05 300.93 610.8 302.71 613.54 304.5 616.29 306.41 618.56 308.32 620.84 310.76 623.9 313.19 626.97 315.25 629.76 317.3 632.54 319.25 635.07 321.21 637.6 321.62 638.83 322.03 640.06 321.64 641.3 321.25 642.53 320.2 643.3 319.16 644.07 317.86 644.09 316.57 644.1 316.34 643.17 316.11 642.24 315.49 638.58 314.87 634.93 315.35 631.43 315.83 627.94 316.98 624.56 318.13 621.18 319.11 618.35 320.09 615.52 322.45 614.13 324.8 612.75 326.54 614.86 328.27 616.97 326.46 619.01 324.65 621.05 322.35 619.58 320.05 618.11 321.14 615.61 322.23 613.11 324.87 613.8 327.51 614.48 327.17 618.15 326.82 621.82 325.79 624.41 324.76 627.01 324.04 629.93 323.31 632.85 322.79 635.74 322.27 638.64 322.15 639.35 322.03 640.06 321.64 641.3 321.25 642.53 320.2 643.3 319.16 644.07 317.86 644.09 316.57 644.1 315.51 643.34 314.46 642.59 312.55 640.01 310.64 637.43 308.71 634.78 306.77 632.14 304.35 629.19 301.93 626.23 299.79 623.67 297.66 621.1 295.83 618.36 293.99 615.62 293.71 612.44 293.42 609.26 293.48 608.44 293.53 607.61 294.72 607.14 295.92 606.68 297.16 607 298.4 607.32 299.21 608.31 300.03 609.3 300.11 610.58 300.18 611.86 299.4 615.27 298.61 618.68 298.57 621.85 298.53 625.01 298.55 627.81 298.56 630.61 298.5 633.62 298.43 636.63 298.37 638.37 298.32 640.11 298.33 642.63 298.34 645.15 298.34 645.89 298.34 646.62 298.25 647.2 298.16 647.77 297.9 648.29 297.63 648.81 297.22 649.23 296.8 649.64 296.28 649.91 295.76 650.17 295.19 650.26 294.61 650.35 294.03 650.26 293.46 650.17 292.94 649.91 292.42 649.64 292 649.23 291.59 648.81 291.32 648.29 291.06 647.77 290.97 647.2 290.88 646.62 290.88 645.89 Z"></path></svg></div></div>
+<div class="sl-block" data-block-type="drawing" data-name="drawing-6d5ca2" style="width: 20.6953px; height: 39.847px; left: 419.709px; top: 618.872px;" data-block-id="8507853c0a5779e60257f52f7450bfbb"><div class="sl-block-content" data-points="326.66 609.02,327.77 612.73,328.73 615.68,329.84 618.47,330.83 621.18,331.56 623.63,332.82 626.86,333.96 629.04,334.77 631.15,335.77 632.89,337.11 634.7,337.37 637.26,337.63 639.36,338.41 641.52,338.93 643.76,339.84 645.75" data-timestamp="1688816520338" style="z-index: 31;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="none" width="100%" height="100%" viewbox="322.9363098144531 605.2963256835938 19.395843505859375 39.8470458984375"><path fill="rgb(109, 158, 235)" d="M 330.51180701106216 608.7517780690122 Q 330.51 608.75 331.03 610.32 331.54 611.89 332.05 613.3 332.55 614.71 333.2 616.36 333.84 618.01 334.84 620.65 335.84 623.29 337.02 625.75 338.2 628.21 339.48 630.99 340.76 633.76 341.83 637.25 342.9 640.74 341.69 643.24 340.49 645.75 337.82 644.95 335.15 644.16 335.53 641.4 335.9 638.64 338.68 638.58 341.46 638.51 341.96 641.25 342.46 643.99 339.83 644.91 337.21 645.83 335.42 642 333.64 638.16 332.3 635.12 330.96 632.08 329.59 629.03 328.23 625.98 327.32 623.36 326.41 620.73 325.79 618.97 325.18 617.2 324.69 615.67 324.2 614.13 323.75 612.52 323.29 610.91 323.17 610.51 323.05 610.1 322.97 609.52 322.89 608.93 323 608.35 323.11 607.77 323.39 607.25 323.67 606.73 324.09 606.33 324.52 605.92 325.05 605.67 325.58 605.41 326.16 605.33 326.75 605.25 327.33 605.36 327.91 605.47 328.43 605.75 328.95 606.03 329.35 606.45 329.76 606.88 330.01 607.41 330.27 607.94 330.39 608.35 Z"></path></svg></div></div>
+<div class="sl-block" data-block-type="drawing" data-name="drawing-516991" style="width: 59.4906px; height: 67.2629px; left: 435.895px; top: 608.237px;" data-block-id="5e20033971c09460e4d8d7eea6686f8f"><div class="sl-block-content" data-points="359.78 608.7,356.55 610.13,355.07 611.58,353.55 613.24,351.9 614.71,349.71 616.51,348.32 618.76,346.98 621.07,345.25 624.12,343.53 627.17,342.04 629.61,341.14 631.59,341.79 635.11,343.03 639.63,344.03 642.64,345.15 645.21,346.13 646.98,347.43 648.66,349.55 650.54,351.38 652.17,353.89 653.94,355.69 655.59,357.53 656.66,360.01 657.45,362.27 657.71,364.61 657.71,366.82 657.71,368.95 657.71,371.96 657.71,374.23 657.71,377.27 656.34,378.95 655.01,381.17 653.13,383.29 651.6,385.67 649.66,387.24 648.08,388.48 646.3,389.57 644.37,389.57 640.81,389.57 638.08,389.57 634.84,389.57 630.95,389.57 627.29,389.57 623.45,389.26 619.28,388.54 615.64,387.83 613.04,386.6 609.41,385.42 607.08,383.5 605.75,381.4 604.17,378.13 602.16,376.18 601.02,373.69 599.26,371.71 598.32,369.62 598.21,367.53 598.21,364.89 599.78,362.82 601.32,361.23 602.89,360.4 604.87,360 607.18,359.02 609.55,358.42 611.47,358.04 613.64" data-timestamp="1688816525957" style="z-index: 32;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="none" width="100%" height="100%" viewbox="338.1050109863281 594.6610107421875 55.755096435546875 67.262939453125"><path fill="rgb(109, 158, 235)" d="M 360.60936613823026 612.4520804926325 Q 360.61 612.45 359.34 613.22 358.07 614 357.13 615.07 356.19 616.15 355 617.48 353.8 618.81 351.84 621.56 349.88 624.32 348.44 627.21 346.99 630.09 346.67 632.94 346.35 635.79 347.43 638.98 348.51 642.17 350.24 644.58 351.97 646.99 354.63 649 357.29 651.01 359.86 652.15 362.42 653.3 365.1 653.34 367.77 653.38 370.48 652.96 373.18 652.55 376.2 650.87 379.22 649.19 381.25 647.2 383.28 645.2 384.26 642.43 385.24 639.66 385.27 636.54 385.29 633.42 385.3 629.66 385.3 625.9 385.08 622.31 384.85 618.72 384.14 615.96 383.42 613.19 381.98 610.85 380.55 608.52 377.86 606.88 375.17 605.23 372.65 604.3 370.13 603.38 367.57 604.76 365.01 606.14 364.12 608.79 363.23 611.45 360.85 612.96 358.46 614.48 356.59 612.37 354.71 610.25 356.51 608.06 358.31 605.88 360.75 607.32 363.18 608.75 362.15 611.39 361.11 614.02 358.35 613.4 355.59 612.79 355.92 608.38 356.25 603.97 357.94 601.43 359.63 598.89 362.75 596.89 365.88 594.89 369.08 594.69 372.28 594.49 374.85 595.67 377.43 596.84 380.13 598.51 382.84 600.17 385.41 602.28 387.98 604.39 389.63 607.53 391.27 610.67 392.17 614.23 393.06 617.8 393.38 621.78 393.7 625.76 393.78 629.59 393.85 633.43 393.86 636.68 393.87 639.93 393.09 643.57 392.31 647.21 390.65 649.73 388.98 652.25 386.86 654.05 384.73 655.86 382.26 657.71 379.78 659.56 376.53 660.61 373.28 661.66 369.66 661.84 366.04 662.03 362.9 661.79 359.75 661.55 356.89 660.4 354.02 659.26 351.7 657.61 349.37 655.96 347.17 653.96 344.98 651.97 343.41 649.76 341.85 647.56 340.66 644.6 339.46 641.64 338.69 639.02 337.91 636.4 338.17 632.77 338.43 629.13 339.77 626.07 341.11 623.02 342.72 620.28 344.34 617.53 346.9 614.65 349.46 611.76 350.87 610.33 352.29 608.9 353.5 607.93 354.71 606.97 356.13 606.27 357.54 605.57 357.89 605.42 358.24 605.26 358.81 605.11 359.38 604.95 359.97 604.98 360.56 605.01 361.11 605.23 361.66 605.44 362.12 605.81 362.58 606.18 362.9 606.67 363.22 607.16 363.37 607.73 363.53 608.3 363.5 608.89 363.47 609.48 363.25 610.03 363.04 610.58 362.67 611.04 362.3 611.5 361.81 611.82 361.32 612.14 360.96 612.3 Z"></path></svg></div></div>
+<div class="sl-block" data-block-type="drawing" data-name="drawing-d8db49" style="width: 9.44271px; height: 32.6141px; left: 502.587px; top: 623.101px;" data-block-id="b04b6a7c79238da794c06faafa4c17c6"><div class="sl-block-content" data-points="404.64 613.25,404.64 616.46,404.64 618.88,404.64 621.13,404.64 623.97,404.64 627.3,404.64 629.99,404.64 632.27,404.64 634.42,405.3 637.88,405.64 640.21,406.2 642.45" data-timestamp="1688816527306" style="z-index: 33;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="none" width="100%" height="100%" viewbox="400.6099853515625 609.5250244140625 8.84979248046875 32.61407470703125"><path fill="rgb(109, 158, 235)" d="M 408.4092333544922 613.9521875 Q 408.41 613.95 408.45 615.6 408.5 617.25 408.56 619.78 408.62 622.31 408.65 625.21 408.69 628.11 408.84 630.94 408.99 633.76 409.38 636.01 409.76 638.25 408.33 640.56 406.9 642.86 404.4 641.81 401.89 640.75 402.55 638.11 403.2 635.48 405.9 635.71 408.61 635.94 408.8 638.65 409 641.36 406.35 641.97 403.71 642.59 402.19 638.04 400.68 633.48 400.63 630.8 400.59 628.11 400.63 625.21 400.66 622.31 400.72 619.78 400.78 617.25 400.83 615.6 400.87 613.95 400.87 613.6 400.87 613.25 400.96 612.67 401.06 612.09 401.32 611.56 401.59 611.03 402.01 610.62 402.42 610.2 402.95 609.93 403.48 609.67 404.06 609.57 404.64 609.48 405.22 609.57 405.8 609.67 406.33 609.93 406.86 610.2 407.27 610.62 407.69 611.03 407.96 611.56 408.22 612.09 408.32 612.67 408.41 613.25 408.41 613.6 Z"></path></svg></div></div>
+<div class="sl-block" data-block-type="drawing" data-name="drawing-3a5f1d" style="width: 7.61044px; height: 7.13257px; left: 499.828px; top: 603.02px;" data-block-id="59eca3fce993d6b4065d7d58ef50d4f8"><div class="sl-block-content" data-points="401.59 593.01" data-timestamp="1688816528247" style="z-index: 34;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="none" width="100%" height="100%" viewbox="398.0237121582031 589.4437255859375 7.132568359375 7.132568359375"><path fill="rgb(109, 158, 235)" d="M 404.2416504294495 590.3583495705504 Q 404.24 590.36 404.77 591.39 405.29 592.42 405.11 593.57 404.93 594.71 404.11 595.53 403.29 596.35 402.15 596.53 401 596.71 399.97 596.19 398.94 595.66 398.41 594.63 397.89 593.6 398.07 592.45 398.25 591.31 399.07 590.49 399.89 589.67 401.03 589.49 402.18 589.31 403.21 589.83 404.24 590.36 404.24 590.36 Z"></path></svg></div></div>
+</div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="2b718cdaad3ecae586f4f6f04f7087d4">
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-a22dd8" style="width: auto; height: auto;" data-block-id="8b54acc79c782bbb9e676b52b076d0f9"><div class="sl-block-content sl-block-group-content" style="transform-origin: 830.5px 675.5px; z-index: 10;">
+<div class="sl-block" data-block-type="text" data-name="text-4d4062" style="height: auto; width: 199px; left: 748px; top: 656px;" data-block-id="c36e0f14c67ac69f640097fe50f9b545"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(74, 134, 232);"><pre> @SmaineDev</pre></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-ff53d5" style="width: 49px; height: 49px; left: 714px; top: 651px; min-width: 1px; min-height: 1px;" data-block-id="5cbdfdb57e7fa73659d69008be490a9b"><div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="deck/4c5b2d16a7b9986f9a7d849b396faad8.png"></div></div>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-accc49" style="height: auto; width: 600px; left: 160px; top: 110.5px;" data-block-id="89bf7ed80cadc2d348aeecccaca07965"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;"><h2>Start 🏁</h2></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-bef7ef" data-block-id="a4661f011d9b861e3644f28985a73538" style="height: auto; width: 375.5px; left: 286px; top: 239.25px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p style="text-align:left">      Slack message 📨</p>
+
+<p style="text-align:left"> </p>
+
+<p style="text-align: left;">😱 Impostor syndrom++</p>
+</div></div>
+<div class="sl-block" data-block-type="image" data-name="image-a5e26a" data-block-id="78b6a2c861b1d20596b6da40b4c8f725" style="width: 36.5px; height: 36.5px; left: 286px; top: 245.75px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 15;"><img class="" data-natural-width="1350" data-natural-height="1350" data-lazy-loaded="" data-src="deck/e86145f93dfcddddcb6363bf6f81a177.png"></div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="369f0b39a8f8b1d7487ffeb74b1fbbd6">
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-a22dd8" style="width: auto; height: auto;" data-block-id="e1053a44c42fa0434b8d6acb7394a4e6"><div class="sl-block-content sl-block-group-content" style="transform-origin: 830.5px 675.5px; z-index: 10;">
+<div class="sl-block" data-block-type="text" data-name="text-4d4062" style="height: auto; width: 199px; left: 748px; top: 656px;" data-block-id="914b8b328141fc42fd521b41842de09f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(74, 134, 232);"><pre> @SmaineDev</pre></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-ff53d5" style="width: 49px; height: 49px; left: 714px; top: 651px; min-width: 1px; min-height: 1px;" data-block-id="98340a923a0dec1e59a5964f74019aea"><div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="deck/4c5b2d16a7b9986f9a7d849b396faad8.png"></div></div>
+</div></div>
+
+
+<div class="sl-block" data-block-type="text" data-name="text-730a02" style="height: auto; width: 600px; left: 180px; top: 232.5px;" data-block-id="dc208d97bce33f19e95902585e00c0af"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;"><h2><strong>Lead Developer role 🍄</strong></h2></div></div>
+</section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="75a6dd8b40c215eb1676215a3193f243">
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-a22dd8" style="width: auto; height: auto;" data-block-id="415a80bffea9e92a7a89906b6d0c76b2"><div class="sl-block-content sl-block-group-content" style="transform-origin: 830.5px 675.5px; z-index: 10;">
+<div class="sl-block" data-block-type="text" data-name="text-4d4062" style="height: auto; width: 199px; left: 748px; top: 656px;" data-block-id="6b3e895c31bd7e5ef85755e0cb08779b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; color: rgb(74, 134, 232);"><pre> @SmaineDev</pre></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-ff53d5" style="width: 49px; height: 49px; left: 714px; top: 651px; min-width: 1px; min-height: 1px;" data-block-id="9ec05372618a1fb8406a4e727f1ca875"><div class="sl-block-content" style="z-index: 14;"><img class="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="deck/4c5b2d16a7b9986f9a7d849b396faad8.png"></div></div>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-accc49" style="height: auto; width: 600px; left: 138.5px; top: 90.5px;" data-block-id="d4d46cb9aaee5a6c221fb67bdba58d1e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;"><h2>what we want?</h2></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-b4a6ba" style="height: auto; width: 600px; left: 128px; top: 230.5px;" data-block-id="f469e67f2241c0b7e0ac0d1fa4ee7826"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
+<p><strong>Given</strong> I'm a developer</p>
+
+<p><strong>When</strong> I fetch an entity `utilisateur`</p>
+
+<p><strong>Then</strong> I should have an entity from an API</p>
+</div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="d173da8dcb60292318a6b3f38b9e36fb">
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-a22dd8" style="width: auto; height: auto;" data-block-id="3e6340f0109a196465c2578a672259ee"><div class="sl-block-content sl-block-group-content" style="transform-origin: 830.5px 675.5px; z-index: 10;">
+<div class="sl-block" data-block-type="text" data-name="text-4d4062" style="height: auto; width: 199px; left: 748px; top: 656px;" data-block-id="a5a0c73653b3fa0730141cb86de206ef"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(74, 134, 232);"><pre> @SmaineDev</pre></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-ff53d5" style="width: 49px; height: 49px; left: 714px; top: 651px; min-width: 1px; min-height: 1px;" data-block-id="121bb25bf8a440b4804625bb85a69897"><div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="deck/4c5b2d16a7b9986f9a7d849b396faad8.png"></div></div>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 148px; top: 235.5px;" data-block-id="204784fc951d36b2037088c6ff58ff73" data-name="text-a0bd33"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;"><h1>Let's CREATE A BATTLE PLAN 🗺️</h1></div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="25890d0456f2431c4bada0e904f5746d">
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-a22dd8" style="width: auto; height: auto;" data-block-id="3db5ebac5987ce30c314f930bcb5dafd"><div class="sl-block-content sl-block-group-content" style="transform-origin: 830.5px 675.5px; z-index: 10;">
+<div class="sl-block" data-block-type="text" data-name="text-4d4062" style="height: auto; width: 199px; left: 748px; top: 656px;" data-block-id="a9b911f10cfb5089b4014b301cdf4e4e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(74, 134, 232);"><pre> @SmaineDev</pre></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-ff53d5" style="width: 49px; height: 49px; left: 714px; top: 651px; min-width: 1px; min-height: 1px;" data-block-id="f5e52cf722d59a221d8d86e08accb472"><div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="deck/4c5b2d16a7b9986f9a7d849b396faad8.png"></div></div>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-accc49" style="height: auto; width: 600px; left: 148px; top: 30.5px;" data-block-id="d7a47c5a14e1675e49b57fa369c7fb87"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;"><h1>Battle Plan 🗺️</h1></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-629618" data-block-id="244c521b1d625563128878e8152ad92f" style="height: auto; width: 906px; left: 27px; top: 258px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p style="text-align:left">1️⃣ Create an "HttpRepository" to call the API</p>
+
+<p style="text-align:left">2️⃣ Transform the API resource into a model used in the app</p>
+
+<p style="text-align:left">3️⃣ Hydrate this model with relations from the database if any</p>
+
+<p style="text-align:left">4️⃣ Inject this HttpRepository in the Database Repo so we can migrate method per method</p>
+
+<p style="text-align:left">5️⃣ Write documentation</p>
+</div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="be25523a1f29c423effd3159e550a12e">
+
+
+
+
+
+
+
+
+
+
+
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-a22dd8" style="width: auto; height: auto;" data-block-id="e482c4dffa77cab42c31a9a539bf8490"><div class="sl-block-content sl-block-group-content" style="transform-origin: 830.5px 675.5px; z-index: 10;">
+<div class="sl-block" data-block-type="text" data-name="text-4d4062" style="height: auto; width: 199px; left: 748px; top: 656px;" data-origin-id="a9b911f10cfb5089b4014b301cdf4e4e" data-block-id="e7620e3503c4f59a4b76f401c779c71d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(74, 134, 232);"><pre> @SmaineDev</pre></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-ff53d5" style="width: 49px; height: 49px; left: 714px; top: 651px; min-width: 1px; min-height: 1px;" data-origin-id="f5e52cf722d59a221d8d86e08accb472" data-block-id="9e281d2c1611d21e9a579029c9194697"><div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="deck/4c5b2d16a7b9986f9a7d849b396faad8.png"></div></div>
+</div></div>
+<div class="sl-block" data-block-type="shape" data-name="shape-49619f" style="width: 56px; height: 300px; left: 160.5px; top: 118px;" data-block-id="721460fedef4995ed3b06e24ce279bbd"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(234, 153, 153)" data-shape-stretch="true" style="z-index: 14;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 56 300"><rect width="56" height="300" rx="0" ry="0" class="shape-element" fill="rgb(234, 153, 153)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 56px; height: 300px; left: 415.5px; top: 118px;" data-name="shape-c37c7e" data-block-id="ea86a49ca8c82d307125c966148857c1"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(234, 153, 153)" data-shape-stretch="true" style="z-index: 15;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 56 300"><rect width="56" height="300" rx="0" ry="0" class="shape-element" fill="rgb(234, 153, 153)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="line" data-name="line-f02919" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 216.5px; top: 179px;" data-block-id="14cb4fcffa0ee217ceec67b257d406ae"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="199" data-line-y2="0" data-line-color="#4c1130" data-line-start-type="none" data-line-end-type="line-arrow" style="z-index: 16;" data-line-width="8px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="199" height="1" viewbox="0 0 199 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="0" x2="193" y2="0"></line><line class="line-element" stroke="#4c1130" stroke-width="8" x1="0" y1="0" x2="193" y2="0"></line><path style="fill: rgba(0,0,0,0);" stroke="#4c1130" stroke-width="8" transform="translate(193,0) rotate(90)" d="M 18 18 L 0 0 L -18 18"></path></svg></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-966a3a" style="height: auto; width: 164px; left: 106.5px; top: 70px;" data-block-id="644e2a5e50f3908a7c606c1ad737ad34"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17;"><p style="text-align: left;">Controller</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 164px; left: 361.5px; top: 70px;" data-name="text-d59e36" data-block-id="679e653c799be9e4b51530e3e68457bf"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 18;"><p style="text-align:left">Repository</p></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 56px; height: 300px; left: 781.5px; top: 118px;" data-name="shape-9fb34f" data-block-id="1ae8373a15c65765d5ab4dbb55ccb431"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(234, 153, 153)" data-shape-stretch="true" style="z-index: 19;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 56 300"><rect width="56" height="300" rx="0" ry="0" class="shape-element" fill="rgb(234, 153, 153)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 51px; left: 781.5px; top: 70px;" data-name="text-96ad87" data-block-id="843b13fbf3619afff0f9a1acd4b48226"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 20;"><p style="text-align:left">API</p></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 497px; top: 179px;" data-name="line-c61bfd" data-block-id="48a0fefcd42b92f452383c6b3b6bf0d9"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="267" data-line-y2="0" data-line-color="#4c1130" data-line-start-type="none" data-line-end-type="line-arrow" style="z-index: 21;" data-line-width="8px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="267" height="1" viewbox="0 0 267 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="0" x2="261" y2="0"></line><line class="line-element" stroke="#4c1130" stroke-width="8" x1="0" y1="0" x2="261" y2="0"></line><path style="fill: rgba(0,0,0,0);" stroke="#4c1130" stroke-width="8" transform="translate(261,0) rotate(90)" d="M 18 18 L 0 0 L -18 18"></path></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 56px; height: 173px; left: 602.5px; top: 253px;" data-name="shape-165d2f" data-block-id="85742e01fd05420f49bcde8389f9e732"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(74, 134, 232)" data-shape-stretch="true" style="z-index: 22;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 56 173"><rect width="56" height="173" rx="0" ry="0" class="shape-element" fill="rgb(74, 134, 232)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 247.5px; left: 516.5px; top: 442px;" data-name="text-699b23" data-block-id="9cf18e683a1e463fab7daca7597b49b6"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 23;"><p style="text-align:left">Deserialization</p></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 493px; top: 338.5px;" data-name="line-41dea5" data-block-id="f06145fbdeb1b485b1b4bf9eccf113df"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="267" data-line-y2="0" data-line-color="#4c1130" data-line-start-type="line-arrow" data-line-end-type="none" style="z-index: 13;" data-line-width="8px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="267" height="1" viewbox="0 0 267 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="6" y1="0" x2="267" y2="0"></line><line class="line-element" stroke="#4c1130" stroke-width="8" x1="6" y1="0" x2="267" y2="0"></line><path style="fill: rgba(0,0,0,0);" stroke="#4c1130" stroke-width="8" transform="translate(6,0) rotate(90)" d="M -18 -18 L 0 0 L 18 -18"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 216.5px; top: 338.5px;" data-name="line-b9aa39" data-block-id="b9d7eef4c92020cb3903fc83d11a0f19"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="187" data-line-y2="0" data-line-color="#4c1130" data-line-start-type="line-arrow" data-line-end-type="none" style="z-index: 24;" data-line-width="8px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="187" height="1" viewbox="0 0 187 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="6.000000000000001" y1="0" x2="187" y2="0"></line><line class="line-element" stroke="#4c1130" stroke-width="8" x1="6.000000000000001" y1="0" x2="187" y2="0"></line><path style="fill: rgba(0,0,0,0);" stroke="#4c1130" stroke-width="8" transform="translate(6.000000000000001,0) rotate(90)" d="M -18 -18 L 0 0 L 18 -18"></path></svg></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-accc49" style="height: auto; width: 600px; left: 148px; top: 10px;" data-block-id="8e390348c16ac3d7d5d438804a71d901"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 25;"><h3>Battle Plan 🗺️</h3></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-149560" data-block-id="ec70a179db90cd37027eae13a67caefb" style="height: auto; width: 34.5px; left: 281.5px; top: 153px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 26;"><p style="text-align:left">1️⃣</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 36.5px; left: 619.75px; top: 159.5px;" data-block-id="81ff630721717a4c6daa11a7c5cec13e" data-name="text-91fe6b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 27;"><p style="text-align:left">2️⃣</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 34.5px; left: 614.75px; top: 311.5px;" data-block-id="fc46b67e83f6781d87fdf393ee2f182e" data-name="text-d84e05"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 28;"><p style="text-align:left">3️⃣</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 32.5px; left: 277.5px; top: 320px;" data-block-id="1849575c3f9108a96601898410116c5c" data-name="text-e7144b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 29;"><p style="text-align:left">4️⃣</p></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-326915" style="height: auto; width: 749px; left: 160.5px; top: 521px;" data-block-id="d2e64da6a2d99f9f626a9da8e717d1ec"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 30; background-color: rgb(74, 134, 232);"><p style="text-align:left"><span style="color:#ffffff"><span style="font-size:0.9em"> Transform an API model into a legacy model </span></span><span style="color:#ffffff"><span style="font-size:0.9em">and hydrate with missing data and/or relations in database</span></span></p></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-729720" data-block-id="7bfe91009ca640982905d329bb5074ac" style="height: auto; width: 41.5px; left: 106.5px; top: 540.5px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 31;"><p style="text-align:left">3️⃣</p></div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="29dbf90f8ef8a71ae282fc21fe18cd23">
+
+<div class="sl-block" data-block-type="text" data-name="text-accc49" style="height: auto; width: 600px; left: 163px; top: 0px;" data-block-id="3d9825058d860b5c71983843d1060808"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;"><h3>Codebase 💻</h3></div></div>
+<div class="sl-block" data-block-type="code" data-name="code-1b3664" data-block-id="191f4226083bceccc56bbbba1e10929d" style="width: 871px; height: 504px; left: 19px; top: 76px;"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 15;"><pre style="font-size: 16px; line-height: 19px;"><code data-line-numbers="">&lt;?php
+#[ORM\Entity(repositoryClass: UtilisateurRepository::class)]
+class Utilisateur
+{
+    #[ORM\Id]
+    #[ORM\GeneratedValue]
+    #[ORM\Column]
+    protected ?int $id = null; // Migrated ☁️
+
+    #[ORM\Column(length: 255)]
+    private ?string $prenom = null; // Migrated ☁️
+
+    #[ORM\Column(length: 255)]
+    private ?string $nom = null; // Migrated ☁️
+
+    #[ORM\Column(length: 255)]
+    private ?string $email = null; // Not Migrated 🛠
+
+    #[ORM\OneToOne(cascade: ['persist', 'remove'])] // Migrated ☁️
+    private ?Adresse $adresse = null; 
+
+    #[ORM\OneToMany(mappedBy: 'utilisateur', targetEntity: Commande::class)] 🛠 // Not Migrated
+    private Collection $commandes;
+    
+    // Getters/Setters tu connais 😁
+}</code></pre></div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="ba0090d39ecaf4f07d6d0250d6c7c57c">
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-a22dd8" style="width: auto; height: auto;" data-block-id="a389fcc37c41fb7328ece72d26103803"><div class="sl-block-content sl-block-group-content" style="transform-origin: 830.5px 675.5px; z-index: 10;">
+<div class="sl-block" data-block-type="text" data-name="text-4d4062" style="height: auto; width: 199px; left: 748px; top: 656px;" data-block-id="b9e36efaa92f7aa90ffb60082eaaec5b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; color: rgb(74, 134, 232);"><pre> @SmaineDev</pre></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-ff53d5" style="width: 49px; height: 49px; left: 714px; top: 651px; min-width: 1px; min-height: 1px;" data-block-id="c35bf7018a7abe58188efd349d09977b"><div class="sl-block-content" style="z-index: 14;"><img class="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="deck/4c5b2d16a7b9986f9a7d849b396faad8.png"></div></div>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-accc49" style="height: auto; width: 600px; left: 163px; top: 0px;" data-block-id="851491320e5674eae6221c7d68eef4df"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;"><h3>Codebase 💻</h3></div></div>
+<div class="sl-block" data-block-type="code" data-name="code-1b3664" style="width: 960px; height: 475px; left: 0px; top: 112.5px;" data-block-id="13c5334746ada4308c6ec9f1ee17ee86"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 16;"><pre style="font-size: 16px; line-height: 19px;"><code data-line-numbers="9-24,27">&lt;?php
+
+class HomeController extends AbtractController
+{
+    public function __construct(
+       private readonly UtilisateurRepository $utilisateurRepository
+       ){}
+    
+    /**
+    * @Route("/users/{id}", name="utilisateur_detail", method="GET")
+    */
+    public function __invoke(string $id): Response
+    {
+    	$utilisateur = $this-&gt;utilisateurRepository-&gt;find($id);
+        
+        if (null === $utilisateur) {
+          throw new NotFoundHttpResponse(sprintf('Utilisateur "%s" non trouvé', $id);
+        }
+        
+        return $this-&gt;render('utilisateur_detail.html.twig', [
+           'utilisateur' =&gt; $utilisateur
+        ]);
+    }
+}
+</code></pre></div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="290a42c2cd24c8382c7400f6fac54479">
+<div class="sl-block" data-block-type="code" data-name="code-a03c02" style="width: 943px; height: 594px; left: 0px; top: 80px;" data-block-id="be86e542206349a277b09b677df12e9e"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 10;"><pre style="font-size: 19px; line-height: 23px;"><code data-line-numbers="">// utilisateur_detail.html.twig
+
+&lt;h1&gt;{{ utilisateur.nom }} {{ utilisateur.prenom}}&lt;/h1&gt;
+
+&lt;h3&gt;Adresse: {{ utilisateur.adresse.rue}},
+{{ utilisateur.adresse.ville }} - 
+{{ utilisateur.adresse.codePostal}}
+&lt;/h3&gt;
+
+&lt;h4&gt;Email: {{ utilisateur.email }}&lt;/h4&gt;
+
+{% if  utilisateur.commandes|length &gt; 0 %}
+  &lt;h2&gt;Commandes&lt;/h2&gt;
+
+&lt;ul&gt;
+{% for commande in utilisateur.commandes %}
+&lt;li&gt;{{ commande.nom }} {{ commande.prix }} € 
+  &lt;a href="{{ path('detail_commande', {id: commande.id}) }}"&gt;Voir commande&lt;/a&gt;
+&lt;/li&gt;
+     {% endfor %}
+&lt;ul&gt;
+{% endif %}
+
+&lt;h5&gt;&lt;a href="{{ path('liste_utilisateur') }}"&gt;Liste utilisateur&lt;/a&gt; &lt;/h5&gt;
+
+</code></pre></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-accc49" style="height: auto; width: 600px; left: 163px; top: 0px;" data-block-id="4cf483e824211b8c9f6786ff74c9836a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><h2>Codebase 💻</h2></div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="068e42ce11778e124a7aa3ccadaac93d">
+<div class="sl-block" data-block-type="code" data-name="code-a03c02" data-block-id="59e50f044f6a8279c848e076cbb28f61" style="width: 631px; height: 265px; left: 164.5px; top: 217.5px;"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 10;"><pre style="font-size: 20px; line-height: 24px;"><code data-line-numbers="">{
+   "id":"42",
+   "lastName":"Doe",
+   "firstName":"John",
+   "address":{
+      "streetName":"avenue de bretagne",
+      "zipCode":"59000",
+      "city":"Lille"
+   }
+}</code></pre></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-accc49" style="height: auto; width: 600px; left: 163px; top: 0px;" data-block-id="008aa6dedbf797c6a786610c03f658b2"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><h2>API ☁️</h2></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-b88d97" data-block-id="67aed37504a51bdec137e2ac326c204d" style="height: auto; width: 600px; left: 160px; top: 140px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;"><p><span style="color:#ff0000"><strong>GET</strong></span> /users/42</p></div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="d89d9c3ffd00438f24a05899e39eca84">
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-a22dd8" style="width: auto; height: auto;" data-block-id="cfe56d19278d2df62949d8c28c814773"><div class="sl-block-content sl-block-group-content" style="transform-origin: 830.5px 675.5px; z-index: 10;">
+<div class="sl-block" data-block-type="text" data-name="text-4d4062" style="height: auto; width: 199px; left: 748px; top: 656px;" data-block-id="60363da344e9c245ca0c2f2ddeef911f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; color: rgb(74, 134, 232);"><pre> @SmaineDev</pre></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-ff53d5" style="width: 49px; height: 49px; left: 714px; top: 651px; min-width: 1px; min-height: 1px;" data-block-id="633d989ae094e29625254eab031d123c"><div class="sl-block-content" style="z-index: 14;"><img class="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="deck/4c5b2d16a7b9986f9a7d849b396faad8.png"></div></div>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-accc49" style="height: auto; width: 600px; left: 138.5px; top: 280px;" data-block-id="b905c2c1d5a103f5889f81495cf0d6c5"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;"><h1>Let's Code 💻</h1></div></div>
+</section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="5e2d4fba0dd4053437af4b25c0dd722b">
+<div class="sl-block" data-block-type="text" data-name="text-39a0d8" data-block-id="1b12d8b1c8b90d987274662f7f4a7483" style="height: auto; width: 680px; left: 120px; top: 31px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><p>1️⃣ Create an "HttpRepository" to call the API</p></div></div>
+<div class="sl-block" data-block-type="code" data-name="code-151c0f" data-block-id="22a3d42b0c00bf488e863246d4de726a" style="width: 734px; height: 475px; left: 80px; top: 119px;"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 16px; line-height: 19px;"><code data-line-numbers=""># http_client.yaml
+http_client:
+  scoped_clients:
+    api.client:
+     base_uri: '%env(API_BASE_URI)%'
+     # configuration
+
+
+// HttpUserRepository.php
+namespace App\Http\Repository;
+
+class HttpUserRepository
+{
+  public function __construct(
+    private readonly HttpClientInterface $apiClient){}
+  
+  public function find($id)
+  {
+    $response = $this-&gt;apiClient-&gt;request('GET', '/users/'. $id);
+    
+    // ...
+  }
+}</code></pre></div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="f40425ac12452f83cde6eba239704d83">
+<div class="sl-block" data-block-type="text" data-name="text-39a0d8" style="height: auto; width: 680px; left: 120px; top: 12px;" data-block-id="50e3d6c80cff82ffe09e2510063c53e6"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><p>2️⃣ Transform the API resource into a model used in the app</p></div></div>
+<div class="sl-block" data-block-type="code" data-name="code-151c0f" style="width: 953px; height: 524px; left: 0px; top: 106px;" data-block-id="d1c44ade5aa525091cfb9190638a9e5e"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 18px; line-height: 22px;"><code data-line-numbers="4,10,14,16-19">// HttpUserRepository.php
+namespace App\Http\Repository;
+
+use App\Http\Model\User;
+
+class HttpUserRepository
+{
+  public function __construct(
+    private readonly HttpClientInterface $apiClient,
+    private readonly SerializerInterface $serializer){}
+  
+  public function find($id)
+  {
+    $response = $this-&gt;apiClient-&gt;request('GET', '/users/'. $id);
+    
+    return $this-&gt;serializer-&gt;deserialize(
+     $response-&gt;getContent(),
+     User::class,
+     'json'
+    );
+  }
+}</code></pre></div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="54da52fc25af6e34a50e89f65dab9afa">
+<div class="sl-block" data-block-type="text" data-name="text-39a0d8" style="height: auto; width: 680px; left: 120px; top: 12px;" data-block-id="bff5aed620fb510a2e286c9b6b981ad6"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><p>2️⃣ Transform the API resource into a model used in the app</p></div></div>
+<div class="sl-block" data-block-type="code" data-name="code-151c0f" style="width: 734px; height: 516px; left: 93px; top: 120px;" data-block-id="752e18da699afa387d956d04beed12ce"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 18px; line-height: 22px;"><code data-line-numbers="1,2,4,6,8,11,13,16,18">// User.php
+namespace App\Http\Model;
+
+class User extends App\Data\Entity\Utilisateur
+{
+    public function setId($id)
+    {
+        $this-&gt;id = $id;
+    }
+
+    public function setLastname($lastname)
+    {
+        $this-&gt;setNom($lastname);
+    }
+
+    public function setFirstname($firstname)
+    {
+        $this-&gt;setPrenom($firstname);
+    }
+    // ...
+    
+}</code></pre></div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="d47277c9a0988967eb9b3a6da692a83e">
+<div class="sl-block" data-block-type="text" data-name="text-39a0d8" style="height: auto; width: 680px; left: 120px; top: 12px;" data-block-id="875d9fcd6bacc41611825dbbc805ec70"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><p>3️⃣ Hydrate this model with relations from the database if any</p></div></div>
+<div class="sl-block" data-block-type="code" data-name="code-151c0f" style="width: 953px; height: 540px; left: 0px; top: 131px;" data-block-id="86eb42cb22f848dbfc71900572e53bbc"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 18px; line-height: 22px;"><code data-line-numbers="">// UserNormalizer.php
+namespace App\Http\Normalizer;
+
+use App\Http\Model\User;
+
+class UserNormalizer implements DenormalizerInterface
+{  
+  public function denormalize(mixed $data,
+    string $type,
+    string $format = null,
+    array $context = []) {
+    
+    // 1️⃣ Transform the payload into an `Utilisateur` object
+    // 2️⃣ Fetch value that are not migrated
+    // 3️⃣ Fetch relations that are not migrated
+  }
+  
+    public function supportsDenormalization(mixed $data,
+    string $type,
+    string $format = null) {
+    
+    return User::class === $type;
+  }
+}</code></pre></div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="dd4c374ba76e5f1e90c6aa4a949c435f">
+<div class="sl-block" data-block-type="code" data-name="code-151c0f" style="width: 953px; height: 700px; left: 5px; top: 0px;" data-block-id="e6aa8088868ca468e8368652cdc6743a"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 18px; line-height: 22px;"><code data-line-numbers="">class UserNormalizer implements DenormalizerInterface
+{  
+  // 1️⃣ Transform the payload into an Utilisateur object
+  private function hydrateRoot($object, array $data = [])
+  { // $data contains 👇
+     $data = [
+      'lastname' =&gt; 'Doe',
+      'firstname' =&gt; 'John'
+      // ..
+      ];
+    foreach ($data as $property =&gt; $value) {
+     /** @var PropertyAccessorInterface $propertyAccessor */
+     $this-&gt;propertyAccessor-&gt;setValue($object, $property, $value)
+   }
+   $object-&gt;setId($data['id']);
+
+   return $object;
+   }
+   
+  public function denormalize(mixed $data,
+    string $type,
+    string $format = null,
+    array $context = []) {
+    // 1️⃣ Transform the payload into an Utilisateur object
+    $utilisateur = $this-&gt;hydrateRoot(new User(), $data); 
+ // ...
+}</code></pre></div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="ec88f1c0ddd8ade603606e8d02417c25">
+<div class="sl-block" data-block-type="code" data-name="code-151c0f" style="width: 943px; height: 248.75px; left: 8.5px; top: 241.25px;" data-block-id="6325d323ebafd6ed3d8da9925b4f8f94"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 10;"><pre style="font-size: 18px; line-height: 22px;"><code data-line-numbers="">class UserNormalizer implements DenormalizerInterface
+{     
+  public function denormalize(mixed $data,
+    string $type,
+    string $format = null,
+    array $context = []) {
+    
+    // 1️⃣ Transform the payload into an Utilisateur object
+    $utilisateur = $this-&gt;hydrateRoot(new User(), $data);
+ 	// ...
+}</code></pre></div></div>
+<div class="sl-block" data-block-type="code" data-name="code-a03c02" style="width: 629px; height: 228px; left: 143.5px; top: 0px;" data-block-id="dd63281713684412092d973ca25e69d0"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 20px; line-height: 24px;"><code data-line-numbers="">{
+   "id":"42",
+   "lastName":"Doe",
+   "firstName":"John",
+   "address":{
+      "streetName":"avenue de bretagne",
+      "zipCode":"59000",
+      "city":"Lille"
+   }
+}</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 943px; height: 119px; left: 8.5px; top: 511px;" data-block-id="48f3626fbad74b2113182a81c850bb0d" data-name="code-1b45d4"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;"><pre style="font-size: 18px; line-height: 22px;" class="none"><code data-line-numbers="">$utilisateur-&gt;getId(); // 42
+$utilisateur-&gt;getNom(); // "Doe"
+$utilisateur-&gt;getPrenom(); // "John"
+$utilisateur-&gt;getAddresse()-&gt;getRue(); // "avenue de bretagne"
+
+...
+</code></pre></div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="817133c411a6875dcf4ab175582354fb">
+<div class="sl-block" data-block-type="code" data-name="code-151c0f" style="width: 953px; height: 694px; left: 3.5px; top: 6px;" data-block-id="bc88264a74f205b9efccb55dc6ddae5b"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 10;"><pre style="font-size: 17px; line-height: 20px;"><code data-line-numbers="">class UserNormalizer implements DenormalizerInterface
+{
+  public function __construct(private readonly EntityManagerInterface $entityManager) {}
+    
+  // 2️⃣ Fetch value that are not migrated
+  protected function hydrateDatabaseProperties(
+    array $databaseFields,
+    string $entityClass,
+    $object): void
+    {
+      if ([] === $databaseFields) {
+        return;
+      }
+      $alias = 'entity';
+      \array_walk($databaseFields, function (&amp;$a, $key, $alias) {
+      $a = $alias.'.'.$a;
+      },$alias);
+         
+      $result = $this-&gt;entityManager-&gt;createQueryBuilder()
+        -&gt;from($entityClass, $alias)
+        -&gt;select($databaseFields)
+        -&gt;where($alias.'.id = :id')
+        -&gt;setParameter('id', $object-&gt;getId())
+        -&gt;getQuery()
+        -&gt;getSingleResult(AbstractQuery::HYDRATE_ARRAY);
+
+     foreach ($result as $field =&gt; $value) {
+        /** @var PropertyAccessorInterface */
+        $this-&gt;propertyAccessor-&gt;setValue($object, $field, $value);
+     }
+   } 
+ // ...
+}</code></pre></div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="587ee866247bd6c2343906eedeb3a2fc">
+<div class="sl-block" data-block-type="code" data-name="code-151c0f" style="width: 953px; height: 460px; left: 3.5px; top: 134px;" data-block-id="8d3c9ebcc58fb7f9fceca5e202258617"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 10;"><pre style="font-size: 18px; line-height: 22px;"><code data-line-numbers="">use App\Data\Entity\Commande;
+
+class UserNormalizer implements DenormalizerInterface
+{
+  // 3️⃣ Fetch relations that are not migrated
+  private function hydrateDatabaseRelations($object): void
+  {
+    $commandes =
+        $this-&gt;entityManager
+         -&gt;getRepository(Commande::class)
+         -&gt;findBy(['utilisateur' =&gt; $object-&gt;getId()]);
+        }
+    if ([] !== $commandes) {
+      $this-&gt;propertyAccessor-&gt;setValue(
+          $object,
+          'commandes',
+          $result
+    );
+  }
+}</code></pre></div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="354912f33e01ece8c13db04fce2d1728">
+<div class="sl-block" data-block-type="code" data-name="code-151c0f" style="width: 953px; height: 581px; left: 0px; top: 59.5px;" data-block-id="16ceb53dbb062f49f28c7bef906313bb"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 10;"><pre style="font-size: 18px; line-height: 22px;"><code data-line-numbers="">final class RelationConfiguration
+{
+    public function __construct(
+        private readonly string $fqcn,
+        private readonly string $identifier,
+        private readonly string $propertyPath,
+    ) {
+    }
+}
+
+use RelationConfiguration;
+
+final class UserConfiguration
+{
+  public function getDatabaseRelations(): array
+  {
+    return [
+      new RelationConfiguration(Commande::class, 'utilisateur', 'commandes'),
+      ];
+  }
+  
+  public function getDatabaseProperties(): array
+  {
+  	return ['email'];
+  }
+}</code></pre></div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="f54ff501b17fa5b3fddbdfcbf6921f82">
+<div class="sl-block" data-block-type="code" data-name="code-151c0f" style="width: 953px; height: 691px; left: 3.5px; top: 9px;" data-block-id="288be4a18cd1d00c4cad3dc155515a1f"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 10;"><pre style="font-size: 18px; line-height: 22px;" class="php"><code data-line-numbers="3,4,5,7,8,13,21,23,22,24">class UserNormalizer implements DenormalizerInterface
+{
+  private function hydrateDatabaseRelations(array $relationConfigurations, $object): void
+  { /** @var RelationConfiguration[] $relationConfigurations */
+    foreach ($relationConfigurations as $relationConfiguration) {
+      $result = $this-&gt;entityManager
+         -&gt;getRepository($relationConfiguration-&gt;getFqcn())
+         -&gt;findBy([$relationConfiguration-&gt;getIdentifier() =&gt; $object-&gt;getId()]);
+        }
+        
+        if ([] !== $result) {
+            $this-&gt;propertyAccessor-&gt;setValue($object, 
+            $relationConfiguration-&gt;getPropertyPath(), 
+            $result
+        );
+        }
+    }
+   public function denormalize(/**..*/)
+   {
+    // ...
+    // 3️⃣ Fetch relations that are not migrated
+    $userConfiguration = new UserConfiguration();
+    $this-&gt;hydrateDatabaseRelations(
+      $userConfiguration-&gt;getDatabaseRelations(),
+      $utilisateur
+    );
+}</code></pre></div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="2a7e6b1702639f6d753e3e1be95b7458">
+<div class="sl-block" data-block-type="code" data-name="code-151c0f" style="width: 953px; height: 464px; left: 0px; top: 125px;" data-block-id="e9eee688151603d7096cbe89a4077a9e"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 10;"><pre style="font-size: 18px; line-height: 22px;"><code data-line-numbers="" data-fragment-index="0">class UserNormalizer implements DenormalizerInterface
+{
+   public function denormalize(/**..*/)
+   {
+    // 1️⃣ Transform the payload into an Utilisateur object
+    $utilisateur = $this-&gt;hydrateRoot(new User(), $data);
+    $userConfiguration = new UserConfiguration();
+    // 2️⃣ Fetch value that are not migrated
+    $this-&gt;hydrateDatabaseProperties(
+      $userConfiguration-&gt;getDatabaseProperties(),
+      Utilisateur::class, $utilisateur);
+
+    // 3️⃣ Fetch relations that are not migrated
+    $this-&gt;hydrateDatabaseRelations(
+      $userConfiguration-&gt;getDatabaseRelations(),
+      $utilisateur
+    );
+    
+    return $utilisateur;
+}</code></pre></div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="7cb2a5009204ab340c0932d4e1387c08">
+<div class="sl-block" data-block-type="code" data-name="code-151c0f" style="width: 953px; height: 422px; left: 0px; top: 125px;" data-block-id="2b3c8b3dd176bfaaed080fe8623fa708"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 10;"><pre style="font-size: 18px; line-height: 22px;"><code data-line-numbers="5,9,11,14,16">class UtilisateurRepository extends ServiceEntityRepository
+{
+  public function __construct(
+    ManagerRegistry $registry,
+    private readonly HttpUserRepository $httpUserRepository) {
+    parent::__construct($registry, Utilisateur::class);
+  }
+
+  public function find($id, $lockMode = null, $lockVersion = null)
+  {
+     return $this-&gt;httpUserRepository-&gt;find($id);
+  }
+
+  public function findUtilisateurArchive()
+  {
+     return $this-&gt;createQuesryBuilderBlabla...
+  }
+</code></pre></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-f9e64c" data-block-id="cdfb113287563c83c342720573611928" style="height: auto; width: 717px; left: 118px; top: 19px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><h3>Migrate method by method</h3></div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="73bbc06384c153ec61cfecd702b4b31e">
+<div class="sl-block" data-block-type="text" data-name="text-c47b13" data-block-id="3a956aa7867ff08a0e3e22b4eabbd9db" style="height: auto; width: 705px; left: 127.5px; top: 231px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h1>Improvements 💅</h1></div></div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-a22dd8" style="width: auto; height: auto;" data-block-id="45fcc5002eec5d7341da919c8a39439d"><div class="sl-block-content sl-block-group-content" style="transform-origin: 830.5px 675.5px; z-index: 11;">
+<div class="sl-block" data-block-type="text" data-name="text-4d4062" style="height: auto; width: 199px; left: 748px; top: 656px;" data-origin-id="60363da344e9c245ca0c2f2ddeef911f" data-block-id="4c9396d808babaaf1f5ee269b600a29c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(74, 134, 232);"><pre> @SmaineDev</pre></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-ff53d5" style="width: 49px; height: 49px; left: 714px; top: 651px; min-width: 1px; min-height: 1px;" data-origin-id="633d989ae094e29625254eab031d123c" data-block-id="dac6de6b8b923af9d11704a170664509"><div class="sl-block-content" style="z-index: 13;"><img class="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="deck/4c5b2d16a7b9986f9a7d849b396faad8.png"></div></div>
+</div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="7d920be404c66fc8c296e4d9e5447624">
+<div class="sl-block" data-block-type="code" data-name="code-151c0f" style="width: 953px; height: 700px; left: 3.5px; top: 0px;" data-block-id="395c1f93e4d7c842abc5dad9d2ed1f8f"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 10;"><pre style="font-size: 17px; line-height: 20px;"><code data-line-numbers="">abstract class AbstractHttpRepository 
+{
+  abstract public function getModelClassName(): string;
+  abstract public function getResourcesUri(): string;
+  
+  public function __construct() {
+    $this-&gt;cache = new Symfony\Component\Cache\Adapter\ArrayAdapter();
+  }
+  
+  public function find(string $id)
+  {
+    return $this-&gt;doFind(sprintf('/%s', $this-&gt;getResourcesUri()));
+  }
+  private function doFind(string $uri)
+  {
+    $cacheKey = \str_replace('/', '', $uri);
+    $item = $this-&gt;cache-&gt;getItem($cacheKey);
+
+    if ($item-&gt;isHit()) {
+       return $item-&gt;get();
+    }
+
+   $object = $this-&gt;serializer-&gt;deserialize(
+     $this-&gt;apiClient-&gt;request('GET', $uri)-&gt;getContent(),
+     $this-&gt;getModelClassName(),
+     'json'
+     );
+
+   $item-&gt;set($object);
+   $this-&gt;cache-&gt;save($item);
+
+   return $object;
+  }
+}
+
+</code></pre></div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="c758675ef1b8e6d9e9f050ea9a4624cc">
+<div class="sl-block" data-block-type="code" data-name="code-151c0f" style="width: 953px; height: 627px; left: 3.5px; top: 10.5px;" data-block-id="5181c889f7e9e6f3d2e5c6ad8ec3aff1"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 10;"><pre style="font-size: 17px; line-height: 20px;"><code data-line-numbers="">abstract class AbstractNormalizer implements DenormalizerInterface,DenormalizerAwareInterface
+{
+  use DenormalizerAwareTrait;
+  
+  public function __construct(
+     protected readonly EntityManagerInterface $entityManager){}
+     
+  abstract public function supportsDenormalization(/**..*/);
+  abstract protected function doDenormalize(/**..*/);
+  
+  protected function hydrateRoot($object, array $data = [])
+  {// Tambouille 🍲} 
+  
+  protected function hydrateDatabaseProperties(
+    array $databaseFields,
+    string $entityClass, $object
+  ): void {// Tambouille 🔪}
+  
+  protected function hydrateDatabaseRelations(
+    array $relationConfigurations,
+    $object): void {// Tambouille 🍽️}
+
+  public function denormalize(mixed $data, string $type, string $format = null, array $context = [])
+  {
+    retrun array_key_exists('@id', $data)
+    ? $this-&gt;doDenormalize($data);
+    : $this-&gt;denormalizer-&gt;denormalize($data, $type.'[]', 'json');
+  }
+}
+</code></pre></div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="fcd721b11b90bc3ae8be247d44ca4878">
+<div class="sl-block" data-block-type="code" data-name="code-151c0f" style="width: 852px; height: 547.5px; left: 58px; top: 63.25px;" data-block-id="0a73a916c3b813093d31ab1855fe2966"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 10;"><pre style="font-size: 17px; line-height: 20px;"><code data-line-numbers="">class UserNormalizer extends AbstractNormalizer
+{  
+  public function doDenormalize(/**..*/)
+  {
+   /** @var User $user */
+   $user = $this-&gt;hydrateRoot(new User(), $data);
+
+   $userConfiguration = new UserConfiguration();
+
+   $this-&gt;hydrateDatabaseProperties(
+     $userConfiguration-&gt;getDatabaseProperties(),
+     Utilisateur::class,
+     $user);
+   $this-&gt;hydrateDatabaseRelations(
+     $userConfiguration-&gt;getDatabaseRelations(),
+     $user);
+
+   return $user;
+  }
+  
+  public function supportsDenormalization(/**..*/)
+  {
+    return User::class === $type;
+  }  
+}
+</code></pre></div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="f9d47c177d6c9a323e30c37c47c81405">
+<div class="sl-block" data-block-type="text" data-name="text-b01c9f" data-block-id="f9b16ab677a031d7a9b5a810f2efdf45" style="height: auto; width: 671px; left: 128px; top: 66px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>It's not over yet!😆</h2></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-b4a6ba" style="height: auto; width: 600px; left: 128px; top: 230.5px;" data-block-id="cd0233c1bedccf13bccbb7bef139b176"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<p><strong>Given</strong> I'm a developer</p>
+
+<p><strong>When</strong> I fetch an entity from the database with a migrated relation</p>
+
+<p><strong>Then</strong> I should have the migrated relation set to my entity</p>
+</div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="6474a12a3a52c3078c62bff68e5311e2">
+<div class="sl-block" data-block-type="code" data-name="code-d10c46" data-block-id="82d2dd2ac0d98959725478ff30c8e23e" style="width: 753px; height: 592px; left: 108px; top: 52px;"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 10;"><pre class="php" style="font-size: 16px; line-height: 19px;"><code data-line-numbers="3,4,15,17,20-27">use App\Http\Config;
+
+#[ORM\Entity(repositoryClass: CommandeRepository::class)]
+class Commande implements ContainsApiResource
+{
+  // ..
+  
+  #[ORM\Column(length: 255)]
+  private ?string $nom = null;
+
+  #[ORM\Column]
+  private ?float $prix = null;
+  
+  //..
+  public function setUtilisateur(Utilisateur $utilisateur)
+  {
+    $this-&gt;utilisateur = $utilisateur;
+  }
+  
+  public function getRelationsConfiguration(): array
+  {
+    return [
+      new RelationConfiguration(
+        User::class, // FQCN
+        'id', // identifier to fetch the value
+        'utilisateur' // propertyPath
+      ),
+   ];
+  }
+}</code></pre></div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="938666bf1d1024800615dba5b0a2a426">
+<div class="sl-block" data-block-type="code" data-name="code-d10c46" style="width: 949.5px; height: 694px; left: 0px; top: 6px;" data-block-id="eb25bf11a32418f809799d315dca8310"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 10;"><pre class="php" style="font-size: 16px; line-height: 19px;"><code data-line-numbers="">class EntityWithMigratedRelationPostLoadSubscriber implements EventSubscriberInterface
+{
+  private PropertyAccessorInterface $propertyAccessor;
+
+  public function __construct(
+  #[TaggedLocator('app.http_repository', defaultIndexMethod: 'getModelClassName')]
+  private ContainerInterface $httpRepositoryLocator ) {}
+
+  public function getSubscribedEvents(): array
+  {
+    return [Events::postLoad];
+  }
+
+  public function postLoad(PostLoadEventArgs $loadEventArgs)
+  {
+    if ($loadEventArgs-&gt;getObject() instanceof ContainsApiResource) {
+      /** @var $object ContainsApiResource */
+      $object = $loadEventArgs-&gt;getObject(); // Object from Database
+      foreach ($object-&gt;getRelationsConfiguration() as $relationConfiguration) {
+       $httpRepository = $this-&gt;httpRepositoryLocator-&gt;get($relationConfiguration-&gt;getFqcn());
+       $property = $this-&gt;propertyAccessor-&gt;getValue(
+          $object,
+          $relationConfiguration-&gt;getPropertyPath()
+       ); // Entity Proxy zombie 
+       $idValue = $this-&gt;propertyAccessor-&gt;getValue(
+          $property,
+          $relationConfiguration-&gt;getIdentifier()
+       ); // Id of Object to fetch 
+       $fetched = $httpRepository-&gt;find($idValue); // Object from API
+       $this-&gt;propertyAccessor-&gt;setValue(
+         $object,
+         $relationConfiguration-&gt;getPropertyPath(),
+         $fetched
+      );
+      }
+   }   
+}
+</code></pre></div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="2c402d9a947dd0f237c2aebfd876130e">
+<div class="sl-block" data-block-type="image" style="width: 693.75px; height: 518px; left: 133.125px; top: 91px;" data-name="image-91991c" data-block-id="ab2eca5ceebd4fdb76e8981a317c8428"><div class="sl-block-content" style="z-index: 10;"><img class="" data-natural-width="375" data-natural-height="280" data-src="deck/2d7b220fbfd8b8faaf13f4a067b54e75.png"></div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="c417e6c1937dec2ea78fdb2d68bfc93a">
+<div class="sl-block" data-block-type="text" data-name="text-8643e4" data-block-id="5293b6b1628e65ba9f0517df5ac7a461" style="height: auto; width: 656px; left: 152px; top: 8.5px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Documentation 📝</h2></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-cdbf62" data-block-id="b92147ebecc262b8f475e54e0a78e24d" style="height: auto; width: 891px; left: 0px; top: 150px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<p style="text-align:left"><span style="font-size:0.9em">1️⃣ Create a <strong><span style="color:#a52a2a">(Dummy)HttpRepository</span></strong> that extends `<strong><span style="color:#b22222">AbstractHttpRepository</span></strong>` =&gt; implements `getResourcesUri` and `getModelClassName`</span></p>
+
+<p style="text-align:left"><span style="font-size:0.9em">2️⃣ Create a new model <strong><span style="color:#a52a2a">(Dummy)</span></strong> if the legacy and the API models are different.</span></p>
+
+<p style="text-align:left"><span style="font-size:0.9em">3️⃣ Create a <strong><span style="color:#a52a2a">(Dummy)Normalizer</span></strong> that extends `<strong><span style="color:#a52a2a">AbstractNormalizer</span></strong>`</span></p>
+
+<p style="text-align:left"><span style="font-size:0.9em">4️⃣ Create <strong><span style="color:#a52a2a">(Dummy)Configuration</span></strong> if you need to fetch properties/relations from legacy</span></p>
+
+<p style="text-align:left"><span style="font-size:0.9em">5️⃣ Implements `<strong><span style="color:#a52a2a">ContainsApiResource</span></strong>` in entities that are linked to migrated resource</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-4741bb" data-block-id="729e968e28b4db6487a2be1657ebd06d" style="height: auto; width: 600px; left: 132.5px; top: 89.5px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;"><p>👉🏽 How to fetch <strong>Dummy</strong> resource from API</p></div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="766e9c561537fd3f6cc4f11b42880c3f">
+<div class="sl-block" data-block-type="text" data-name="text-8643e4" style="height: auto; width: 656px; left: 152px; top: 59.5px;" data-block-id="843e237cd4d14204acb86ad0d863aafd"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>🎬 Behind the scenes.</h2></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-cdbf62" style="height: auto; width: 891px; left: 34.5px; top: 268px;" data-block-id="6fa6e1cfdc005ab5eedad1131c745c1d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><h3 style="text-align: left;"><span style="font-size:1.2em">Feature Flag, Profiler, Serializer, Log, StopWatch, Property Accessor, EventS, Adapter, Cache, Service Locator, DecoratioN...</span></h3></div></div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-a22dd8" style="width: auto; height: auto;" data-block-id="2eeab15df0eed7e6a877b199724fc55a"><div class="sl-block-content sl-block-group-content" style="transform-origin: 831.5px 675.5px; z-index: 12;">
+<div class="sl-block" data-block-type="text" data-name="text-4d4062" style="height: auto; width: 199px; left: 749px; top: 656px;" data-origin-id="60363da344e9c245ca0c2f2ddeef911f" data-block-id="627c6e7b1d11997dfa43322ec99bb294"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; color: rgb(74, 134, 232);"><pre> @SmaineDev</pre></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-ff53d5" style="width: 49px; height: 49px; left: 715px; top: 651px; min-width: 1px; min-height: 1px;" data-origin-id="633d989ae094e29625254eab031d123c" data-block-id="15be3fadc88250e6ba1bbe9dcea87567"><div class="sl-block-content" style="z-index: 14;"><img class="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="deck/4c5b2d16a7b9986f9a7d849b396faad8.png"></div></div>
+</div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="e55cdfe6472f0d03303e38faf6794bc4">
+
+<div class="sl-block" data-block-type="text" data-name="text-cdbf62" style="height: auto; width: 758px; left: 101px; top: 210px;" data-block-id="e46207c6ca62e616c35a2bf18c44a165"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<p style="text-align:left"><span style="font-size:1.2em">💪🏿 You're able to do what you were asked for</span></p>
+
+<p style="text-align:left"><span style="font-size:1.2em">👣 A gradual migration includes trade-offs</span></p>
+
+<p style="text-align:left"><span style="font-size:1.2em">🍝 Doctrine relationships can be toxic</span></p>
+
+<p style="text-align:left"><span style="font-size:1.2em">✅ Test your application</span></p>
+
+<p style="text-align:left"><span style="font-size:1.2em">📚 Mastering your framework helps a lot</span></p>
+
+<p style="text-align:left"><span style="font-size:1.2em">🖤 Symfony c'est 1 truc de ouf 😍</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" data-name="text-8643e4" style="height: auto; width: 656px; left: 152px; top: 59.5px;" data-block-id="8cf81b24b0f494b79dba9960766d5956"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><h2>CONCLUSION 👋🏽</h2></div></div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-a22dd8" style="width: auto; height: auto;" data-block-id="b737352a0b41a4af088ae269d73f5be4"><div class="sl-block-content sl-block-group-content" style="transform-origin: 830.5px 675.5px; z-index: 12;">
+<div class="sl-block" data-block-type="text" data-name="text-4d4062" style="height: auto; width: 199px; left: 748px; top: 656px;" data-origin-id="60363da344e9c245ca0c2f2ddeef911f" data-block-id="6efb43606ab81eb39748f68b2d969003"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; color: rgb(74, 134, 232);"><pre> @SmaineDev</pre></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-ff53d5" style="width: 49px; height: 49px; left: 714px; top: 651px; min-width: 1px; min-height: 1px;" data-origin-id="633d989ae094e29625254eab031d123c" data-block-id="5c7818d2bd58c4f23d52629b4e60e333"><div class="sl-block-content" style="z-index: 14;"><img class="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="deck/4c5b2d16a7b9986f9a7d849b396faad8.png"></div></div>
+</div></div></section><section data-background-color="rgb(217, 210, 233)" data-background-image="deck/1111550709344c42a446a6364cd2ad20.jpeg" data-id="2726157100290f882df5e8d18b671445">
+
+
+<div class="sl-block" data-block-type="text" data-name="text-8643e4" style="height: auto; width: 656px; left: 152px; top: 59.5px;" data-block-id="741916cd8f6cf883214caeea09ec091b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Thanks 👋🏽</h2></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-b832b5" data-block-id="9258a89df2cf95836bb4d51977506225" style="height: auto; width: 864px; left: 67px; top: 280px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>💻 https://github.com/ismail1432/demo_api_platform_con_23</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 864px; left: 67px; top: 343px;" data-block-id="e1eb6d0d1bf1b66982432203cf91dc36" data-name="text-31b288"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;"><p>🎨 https://github.com/ismail1432/conferences</p></div></div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-a22dd8" style="width: auto; height: auto;" data-block-id="fba2adbf131cacc301d9b26248c9fc73"><div class="sl-block-content sl-block-group-content" style="transform-origin: 830.5px 675.5px; z-index: 13;">
+<div class="sl-block" data-block-type="text" data-name="text-4d4062" style="height: auto; width: 199px; left: 748px; top: 656px;" data-origin-id="60363da344e9c245ca0c2f2ddeef911f" data-block-id="d078a4945874af956c2b40e8cd2715cc"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; color: rgb(74, 134, 232);"><pre> @SmaineDev</pre></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-ff53d5" style="width: 49px; height: 49px; left: 714px; top: 651px; min-width: 1px; min-height: 1px;" data-origin-id="633d989ae094e29625254eab031d123c" data-block-id="b9a5ec2a885e4f4f38e9f3bb36939805"><div class="sl-block-content" style="z-index: 15;"><img class="" data-natural-width="512" data-natural-height="512" data-lazy-loaded="" data-src="deck/4c5b2d16a7b9986f9a7d849b396faad8.png"></div></div>
+</div></div></section>
+			</div>
+		</div>
+
+		<script>
+			var SLConfig = {"deck": {"id":2646346,"slug":"deck","title":"Replace a DB by an API","description":"","width":960,"height":700,"margin":0.05,"visibility":"self","published_at":"2023-07-07T22:14:39.405Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/09528090f19c94fd6245605a8b3aa9c9/thumb.jpg?1693501359","view_count":6,"user":{"id":1218505,"username":"smainemilianni","name":"Smaine Milianni","description":null,"thumbnail_url":"https://lh3.googleusercontent.com/a-/AAuE7mB2escP4JEeMMfNYB08ZMVDPyLymRqgJivRBR_bIA","account_type":"lite","team_id":null,"settings":{"id":4472090,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"quicksand","theme_color":"beige-brown","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":true,"rolling_links":false,"center":false,"shuffle":null,"should_loop":false,"share_notes":null,"slide_number":null,"slide_count":49,"rtl":false,"version":2,"collaborative":true,"deck_user_editor_limit":1,"data_updated_at":1695367562574,"font_typekit":null,"font_google":null,"time_limit":null,"navigation_mode":"default","upsizing_enabled":null,"language":"en","notes":{}}};
+
+
+			// Use local fonts
+			SLConfig.fonts_url = 'lib/fonts/';
+		</script>
+
+		<script src="lib/reveal.js"></script>
+		<script src="lib/reveal-plugins.js"></script>
+		<script src="lib/offline.js"></script>
+
+		<!-- Initialize the presentation -->
+		<script>
+			Reveal.initialize({
+				width: 960,
+				height: 700,
+				margin: 0.05,
+				
+
+				hash: true,
+				controls: true,
+				progress: true,
+				mouseWheel: false,
+				showNotes: false,
+				slideNumber: false,
+				fragmentInURL: true,
+
+				autoSlide: 0,
+				autoSlideStoppable: true,
+
+				autoAnimateMatcher: SL.deck.AutoAnimate.matcher,
+
+				center: false,
+				shuffle: false,
+				loop: false,
+				rtl: false,
+				navigationMode: "default",
+
+				transition: "slide",
+				backgroundTransition: "slide",
+
+				highlight: {
+					escapeHTML: false
+				},
+
+				plugins: [ RevealZoom, RevealNotes, RevealMarkdown, RevealHighlight ]
+			});
+		</script>
+
+		
+
+	</body>
+</html>
