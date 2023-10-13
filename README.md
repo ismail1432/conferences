@@ -2,13 +2,18 @@
 
 ## 📆 2023
 
-### AFUP Day (🌍 Lyon) - Le Zero Downtime Deployment en pratique
+### Forum PHP (🌍 Paris) - You build it, You run it, l'observabilité pour les devs
 
-- [📸 Slides](https://ismail1432.github.io/conferences/2023/zero-downtime-deployment-en-pratique.html)
+- [📸 Slides](https://ismail1432.github.io/conferences/2023/forum_php/index.html)
 
 ### API Platform Conference (🌍 Lille) - Remplacer une BDD par une API, Mission impossible?
 
 - [📸 Slides](https://ismail1432.github.io/conferences/2023/api_conf_2023/api-conf-2023.html)
+
+
+### AFUP Day (🌍 Lyon) - Le Zero Downtime Deployment en pratique
+
+- [📸 Slides](https://ismail1432.github.io/conferences/2023/zero-downtime-deployment-en-pratique.html)
 
 ## 📆 2022
 
