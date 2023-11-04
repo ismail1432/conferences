@@ -9,7 +9,7 @@
 ### API Platform Conference (🌍 Lille) - Remplacer une BDD par une API, Mission impossible?
 
 - [📸 Slides](https://ismail1432.github.io/conferences/2023/api_conf_2023/api-conf-2023.html)
-
+- [🍿 Video](https://youtu.be/qSje7nefgHY?si=8DAW_GUc5SanJwFS)
 
 ### AFUP Day (🌍 Lyon) - Le Zero Downtime Deployment en pratique
 
