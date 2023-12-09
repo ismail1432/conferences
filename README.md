@@ -5,6 +5,7 @@
 ### Forum PHP (🌍 Paris) - You build it, You run it, l'observabilité pour les devs
 
 - [📸 Slides](https://ismail1432.github.io/conferences/2023/forum_php/index.html)
+- [🍿 Video](https://youtu.be/BwoJYLPXUoQ?si=c_QHEyI8NemQ3Qb8)
 
 ### API Platform Conference (🌍 Lille) - Remplacer une BDD par une API, Mission impossible?
 
