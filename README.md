@@ -2,6 +2,11 @@
 
 ## 📆 2024
 
+### OpenTechCon (🌍 Online) - Chemin d'une reconversion, apprentissage et désillusion ?
+
+- [📸 Slides](https://ismail1432.github.io/conferences/2024/open_tech_con/index.html)
+
+
 ### API Platform Conference (🌍 Lille) - Comment se sortir du legacy ?
 
 - [📸 Slides](https://ismail1432.github.io/conferences/2024/apip_conf/index.html)
