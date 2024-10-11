@@ -2,6 +2,10 @@
 
 ## 📆 2024
 
+### Forum PHP (🌍 Paris) - Le Zero Downtime Deployment en pratique
+
+- [📸 Slides](https://ismail1432.github.io/conferences/2024/forum_php/index.html)
+
 ### OpenTechCon (🌍 Online) - Chemin d'une reconversion, apprentissage et désillusion ?
 
 - [📸 Slides](https://ismail1432.github.io/conferences/2024/open_tech_con/index.html)
