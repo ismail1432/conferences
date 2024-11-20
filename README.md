@@ -14,7 +14,8 @@
 ### API Platform Conference (🌍 Lille) - Comment se sortir du legacy ?
 
 - [📸 Slides](https://ismail1432.github.io/conferences/2024/apip_conf/index.html)
-
+- [🍿 Video](https://youtu.be/y2AmAvNc7iQ?si=DqLetNfCyFhkJY2Q)
+  
 ## 📆 2023
 
 ### Forum PHP (🌍 Paris) - You build it, You run it, l'observabilité pour les devs
