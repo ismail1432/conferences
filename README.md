@@ -5,6 +5,7 @@
 ### Forum PHP (🌍 Paris) - Le Zero Downtime Deployment en pratique
 
 - [📸 Slides](https://ismail1432.github.io/conferences/2024/forum_php/index.html)
+- [🍿 Video](https://youtu.be/av52OxqzCvM?si=H26Kge-P00djF_L4)
 
 ### OpenTechCon (🌍 Online) - Chemin d'une reconversion, apprentissage et désillusion ?
 
