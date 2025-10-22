@@ -5,6 +5,7 @@
 ### API Platform Conference (🌍 Lille) - Design Patterns, le tresor est dans le vendor ?
 
 - [📸 Slides](https://ismail1432.github.io/conferences/2025/apip_con/index.html)
+- [🍿 Video](https://youtu.be/fXDH0jUU3GY?si=bEUqq1L8A401_Yig)
 
 ## 📆 2024
 
