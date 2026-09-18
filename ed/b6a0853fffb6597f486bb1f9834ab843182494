@@ -1,0 +1,60 @@
+2026/apip_con/exception-that-proves-the-rules-apipcon/10ea9be88190471bd83effb87d19478a.svg
+  h_5e1897cf86d710 1-35
+2026/apip_con/exception-that-proves-the-rules-apipcon/708b6f7a52100e7f0d4af877e9837982.svg
+  h_5e1897cf86d710 1-35
+2026/apip_con/index.html
+  h_5e1897cf86d710 1-789
+2026/apip_con/lib/fonts/asul/asul.css
+  h_5e1897cf86d710 1-16
+2026/apip_con/lib/fonts/cabinsketch/cabinsketch.css
+  h_5e1897cf86d710 1-14
+2026/apip_con/lib/fonts/josefinsans/josefinsans.css
+  h_5e1897cf86d710 1-28
+2026/apip_con/lib/fonts/lato/lato.css
+  h_5e1897cf86d710 1-28
+2026/apip_con/lib/fonts/league/league_gothic.css
+  h_5e1897cf86d710 1-8
+2026/apip_con/lib/fonts/league/league_gothic_license
+  h_5e1897cf86d710 1-2
+2026/apip_con/lib/fonts/merriweathersans/merriweathersans.css
+  h_5e1897cf86d710 1-14
+2026/apip_con/lib/fonts/montserrat/montserrat.css
+  h_5e1897cf86d710 1-14
+2026/apip_con/lib/fonts/newscycle/newscycle.css
+  h_5e1897cf86d710 1-14
+2026/apip_con/lib/fonts/opensans/opensans.css
+  h_5e1897cf86d710 1-28
+2026/apip_con/lib/fonts/overpass/overpass.css
+  h_5e1897cf86d710 1-24
+2026/apip_con/lib/fonts/overpass2/overpass2.css
+  h_5e1897cf86d710 1-63
+2026/apip_con/lib/fonts/oxygen/oxygen.css
+  h_5e1897cf86d710 1-14
+2026/apip_con/lib/fonts/quicksand/quicksand.css
+  h_5e1897cf86d710 1-14
+2026/apip_con/lib/offline-v1.css
+  h_5e1897cf86d710 1-5
+2026/apip_con/lib/offline-v2.css
+  h_5e1897cf86d710 1-5
+2026/apip_con/lib/offline.js
+  h_5e1897cf86d710 1-30
+2026/apip_con/lib/reveal-plugins.js
+  h_5e1897cf86d710 1-40
+2026/apip_con/lib/reveal.css
+  h_5e1897cf86d710 1
+2026/apip_con/lib/reveal.js
+  h_5e1897cf86d710 1-8
+README.md
+  h_5e1897cf86d710 3-8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "edb6a0853fffb6597f486bb1f9834ab843182494",
+  "prompts": {},
+  "humans": {
+    "h_5e1897cf86d710": {
+      "author": "smaine milianni <smaine.milianni@yousign.com>"
+    }
+  }
+}
