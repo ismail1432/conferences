@@ -1,0 +1,35 @@
+<svg width="100%" viewBox="0 0 1290 730" role="img" xmlns="http://www.w3.org/2000/svg" style="">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Background slide 16:9 violet centré</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Dégradé radial bleu ciel aux bords, violet lavande au centre, format 16:9</desc>
+  <defs>
+    <radialGradient id="bgMain" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#C4B5EA"/>
+      <stop offset="40%" stop-color="#C0BEF0"/>
+      <stop offset="100%" stop-color="#B2D6F5"/>
+    </radialGradient>
+    <radialGradient id="gTopLeft" cx="0%" cy="0%" r="65%">
+      <stop offset="0%" stop-color="#C2DEFF" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#C2DEFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gTopRight" cx="100%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#B8D8F8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#B8D8F8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gBotLeft" cx="0%" cy="100%" r="60%">
+      <stop offset="0%" stop-color="#BFCFF5" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#BFCFF5" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gBotRight" cx="100%" cy="100%" r="60%">
+      <stop offset="0%" stop-color="#B6D4F5" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#B6D4F5" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bgMain)" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect width="1280" height="720" fill="url(#gTopLeft)" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect width="1280" height="720" fill="url(#gTopRight)" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect width="1280" height="720" fill="url(#gBotLeft)" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect width="1280" height="720" fill="url(#gBotRight)" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <ellipse cx="640" cy="360" rx="380" ry="220" fill="#D4C2F2" fill-opacity="0.13" style="fill:rgb(212, 194, 242);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+</svg>

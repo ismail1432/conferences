@@ -1,5 +1,11 @@
 # 🎤 Conferences 🍿
 
+## 📆 2026
+
+### API Platform Conference (🌍 Lille) - L'Exception qui confirme la règle
+
+- [📸 Slides](https://ismail1432.github.io/conferences/2026/apip_con/index.html)
+
 ## 📆 2025
 
 ### API Platform Conference (🌍 Lille) - Design Patterns, le tresor est dans le vendor ?
