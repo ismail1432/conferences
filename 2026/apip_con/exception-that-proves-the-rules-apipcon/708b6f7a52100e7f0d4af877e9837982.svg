@@ -1,0 +1,35 @@
+<svg width="100%" viewBox="0 0 1290 730" role="img" xmlns="http://www.w3.org/2000/svg" style="">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Background slide 16:9 violet centré corrigé</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Dégradé radial bleu ciel aux bords, violet lavande au centre, pleine couverture</desc>
+  <defs>
+    <radialGradient id="bgMain" cx="50%" cy="50%" r="80%" fx="50%" fy="50%" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#C4B5EA"/>
+      <stop offset="45%" stop-color="#C0BEF0"/>
+      <stop offset="100%" stop-color="#AECFF5"/>
+    </radialGradient>
+    <radialGradient id="gTL" cx="0%" cy="0%" r="90%" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#C5DEFF" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#C5DEFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gTR" cx="100%" cy="0%" r="90%" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#B5D5FA" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#B5D5FA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gBL" cx="0%" cy="100%" r="90%" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#BCCEF8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#BCCEF8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gBR" cx="100%" cy="100%" r="90%" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#B4D2F6" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#B4D2F6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bgMain)" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect width="1280" height="720" fill="url(#gTL)" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect width="1280" height="720" fill="url(#gTR)" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect width="1280" height="720" fill="url(#gBL)" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect width="1280" height="720" fill="url(#gBR)" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <ellipse cx="640" cy="360" rx="420" ry="240" fill="#D0BFF5" fill-opacity="0.12" style="fill:rgb(208, 191, 245);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+</svg>
