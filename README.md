@@ -5,6 +5,7 @@
 ### API Platform Conference (🌍 Lille) - L'Exception qui confirme la règle
 
 - [📸 Slides](https://ismail1432.github.io/conferences/2026/apip_con/index.html)
+- [🍿 Video]([https://youtu.be/fXDH0jUU3GY?si=bEUqq1L8A401_Yig](https://youtu.be/s9TGxHLhrUo?si=zIV-tYLU_EfdAlbZ))
 
 ## 📆 2025
 
